@@ -49,13 +49,13 @@ function renderOrganizations(data) {
 
                 ${org["Leadership"] && org["Leadership"].length > 0 ? `
                   <div class="leadership">
-                  <strong>Leadership:</strong>
-                  <ul>
-                    ${org["Leadership"].map(person => `
-                      <li>${person.role}: ${person.name}</li>
-                    `).join("")}
-                  </ul>
-                </div>` : ""
+                    <strong>Leadership:</strong>
+                    <ul>
+                      ${org["Leadership"].map(person => `
+                        <li>${person.role}: ${person.name} ${person.chinese_name}</li>
+                      `).join("")}
+                    </ul>
+                  </div>` : ""
     }
 ` ;
 

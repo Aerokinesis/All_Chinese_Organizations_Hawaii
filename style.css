@@ -1,111 +1,126 @@
 .controls {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .card {
-  border: 1px solid #e5e5e5;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 12px;
-  background: #ffffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
 
 .org-name {
-  margin: 0;
-  font-size: 1.2rem;
+    margin: 0;
+    font-size: 1.2rem;
 }
 
 .chinese-name {
-  color: #666;
-  margin-top: 4px;
-  font-size: 0.95rem;
+    color: #666;
+    margin-top: 4px;
+    font-size: 0.95rem;
 }
 
 .card p {
-  margin: 6px 0;
-  font-size: 0.9rem;
+    margin: 6px 0;
+    font-size: 0.9rem;
 }
 
 .card a {
-  color: #b22222; /* subtle red */
-  text-decoration: none;
+    color: #b22222;
+    /* subtle red */
+    text-decoration: none;
 }
 
 .card a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .website-btn {
-  display: inline-block;
-  margin-top: 8px;
-  padding: 6px 12px;
-  background-color: #b22222;
-  color: white !important;
-  border-radius: 6px;
-  font-size: 0.85rem;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #b22222;
+    color: white !important;
+    border-radius: 6px;
+    font-size: 0.85rem;
 }
+
 .search-wrapper {
-  position: relative;
-  max-width: 400px;
-  width: 100%;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
 }
 
 .search-bar {
-  width: 100%;
-  padding: 10px 36px 10px 14px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  font-size: 0.95rem;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 10px 36px 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 0.95rem;
+    box-sizing: border-box;
 }
 
 .clear-btn {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 22px;
-  height: 22px;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
 
-  display: none;
-  padding: 0;
-  border: none;
-  background: transparent;
-  cursor: pointer;
+    display: none;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 
-  font-size: 16px;
-  line-height: 1;
-  color: #999;
+    font-size: 16px;
+    line-height: 1;
+    color: #999;
 }
 
 .clear-btn:hover {
-  color: #b22222;
+    color: #b22222;
 }
 
 .filter-dropdown {
-  padding: 10px 14px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
 
 .results-count {
-  margin-bottom: 12px;
-  color: #666;
-  font-size: 0.9rem;
+    margin-bottom: 12px;
+    color: #666;
+    font-size: 0.9rem;
 }
 
 .no-results {
-  text-align: center;
-  padding: 40px 0;
-  color: #777;
+    text-align: center;
+    padding: 40px 0;
+    color: #777;
+}
+
+.leadership {
+    margin-top: 10px;
+}
+
+.leadership ul {
+    margin: 6px 0 0 0;
+    padding-left: 18px;
+}
+
+.leadership li {
+    font-size: 0.9rem;
 }

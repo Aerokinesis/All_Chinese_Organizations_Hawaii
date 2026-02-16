@@ -1,7 +1,6 @@
 [
   {
     "ID": "1",
-    "Page": "8",
     "English Name": "A BETTER CHINATOWN ASSOCIATION",
     "Chinese Name": "",
     "Established": "2019",
@@ -30,7 +29,6 @@
   },
   {
     "ID": "2",
-    "Page": "8",
     "English Name": "ACUPUNCTURIST AND HERBALIST RESEARCH INSTITUTE OF HAWAII",
     "Chinese Name": "夏威夷中醫藥師針灸科研學會",
     "Established": "1990",
@@ -59,7 +57,6 @@
   },
   {
     "ID": "3",
-    "Page": "8",
     "English Name": "ASSOCIATED CHINESE UNIVERSITY WOMEN, INC. (ACUW)",
     "Chinese Name": "大學華人婦女會",
     "Established": "1931",
@@ -76,29 +73,33 @@
       },
       {
         "role": "Vice President",
-        "name": "Betty Brow"
+        "name": "Betty Brow",
+        "chinese_name": ""
       },
       {
         "role": "Secretary - Recording",
-        "name": "Ann Pang"
+        "name": "Ann Pang",
+        "chinese_name": ""
       },
       {
         "role": "Secretary - Corresponding",
-        "name": "Jennifer Chun"
+        "name": "Jennifer Chun",
+        "chinese_name": ""
       },
       {
         "role": "Secretary - Public Relations",
-        "name": "Joanne Ebesu"
+        "name": "Joanne Ebesu",
+        "chinese_name": ""
       },
       {
         "role": "Treasurer",
-        "name": "Allison Eberly"
+        "name": "Allison Eberly",
+        "chinese_name": ""
       }
     ]
   },
   {
     "ID": "4",
-    "Page": "8",
     "English Name": "ASSOCIATION OF CHINESE FROM SOUTH EAST ASIAN NATIONS",
     "Chinese Name": "",
     "Established": "1998",
@@ -115,17 +116,18 @@
       },
       {
         "role": "Vice President",
-        "name": "Patricia Kramm"
+        "name": "Patricia Kramm",
+        "chinese_name": ""
       },
       {
         "role": "Treasurer",
-        "name": "Philip Tan"
+        "name": "Philip Tan",
+        "chinese_name": ""
       }
     ]
   },
   {
     "ID": "5",
-    "Page": "8",
     "English Name": "ASSOCIATION OF CHINESE FROM VIETNAM, CAMBODIA AND LAOS",
     "Chinese Name": "夏威夷越棉寮華人聯誼會",
     "Established": "1981",
@@ -152,13 +154,13 @@
       },
       {
         "role": "Vice President",
-        "name": "Jimmy Lam"
+        "name": "Jimmy Lam",
+        "chinese_name": ""
       }
     ]
   },
   {
     "ID": "6",
-    "Page": "8",
     "English Name": "BUCK TOY CLUB",
     "Chinese Name": "北台同鄉會",
     "Established": "1885",
@@ -197,7 +199,6 @@
   },
   {
     "ID": "7",
-    "Page": "9",
     "English Name": "BUDDHA'S LIGHT INTERNATIONAL ASSOCIATION, HAWAII CHAPTER",
     "Chinese Name": "國際佛光會夏威夷協會",
     "Established": "1992",
@@ -221,7 +222,6 @@
   },
   {
     "ID": "8",
-    "Page": "9",
     "English Name": "CHANG WING YONG TONG",
     "Chinese Name": "鄭榮陽堂",
     "Established": "1956",
@@ -233,21 +233,23 @@
     "Leadership": [
       {
         "role": "Vice President",
-        "name": "Sandra Young"
+        "name": "Sandra Young",
+        "chinese_name": ""
       },
       {
         "role": "Secretary",
-        "name": "Melvin J.T. Chang"
+        "name": "Melvin J.T. Chang",
+        "chinese_name": ""
       },
       {
         "role": "Treasurer",
-        "name": "Walter T.C. Chang"
+        "name": "Walter T.C. Chang",
+        "chinese_name": ""
       }
     ]
   },
   {
     "ID": "9",
-    "Page": "9",
     "English Name": "CHEE KUNG TONG SOCIETY",
     "Chinese Name": "檀香山致公總堂",
     "Established": "1892",
@@ -274,13 +276,13 @@
       },
       {
         "role": "Secretary",
-        "name": "Wilfred Lam"
+        "name": "Wilfred Lam",
+        "chinese_name": ""
       }
     ]
   },
   {
     "ID": "10",
-    "Page": "9",
     "English Name": "CHINATOWN BUSINESS & COMMUNITY ASSOCIATION (CBCA)",
     "Chinese Name": "華埠商家與社區協會",
     "Established": "2009",
@@ -297,7 +299,8 @@
       },
       {
         "role": "1st Vice President",
-        "name": "David Chang"
+        "name": "David Chang",
+        "chinese_name": ""
       },
       {
         "role": "2nd Vice President",
@@ -306,17 +309,18 @@
       },
       {
         "role": "Secretary",
-        "name": "Stanley Oswalt"
+        "name": "Stanley Oswalt",
+        "chinese_name": ""
       },
       {
         "role": "Treasurer",
-        "name": "Laura Sturges"
+        "name": "Laura Sturges",
+        "chinese_name": ""
       }
     ]
   },
   {
     "ID": "11",
-    "Page": "9",
     "English Name": "CHINATOWN 808",
     "Chinese Name": "",
     "Established": "2022",
@@ -333,25 +337,28 @@
       },
       {
         "role": "Vice President",
-        "name": "Kalene Sakamoto"
+        "name": "Kalene Sakamoto",
+        "chinese_name": ""
       },
       {
         "role": "Vice President",
-        "name": "Sarah Young"
+        "name": "Sarah Young",
+        "chinese_name": ""
       },
       {
         "role": "Secretary",
-        "name": "Clinton Wong"
+        "name": "Clinton Wong",
+        "chinese_name": ""
       },
       {
         "role": "Treasurer",
-        "name": "Eileen Chun"
+        "name": "Eileen Chun",
+        "chinese_name": ""
       }
     ]
   },
   {
     "ID": "12",
-    "Page": "9",
     "English Name": "CHINESE BUDDHIST ASSOCIATION OF HAWAII - (HSU YUN TEMPLE)",
     "Chinese Name": "檀香山華僑佛教會（虚雲禪寺）",
     "Established": "1953",
