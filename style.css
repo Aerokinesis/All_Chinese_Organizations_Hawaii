@@ -1,6 +1,65 @@
 .card {
-  border: 1px solid #ddd;
-  padding: 16px;
-  margin-bottom: 12px;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.org-name {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.chinese-name {
+  color: #666;
+  margin-top: 4px;
+  font-size: 0.95rem;
+}
+
+.card p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+}
+
+.card a {
+  color: #b22222; /* subtle red */
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.website-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #b22222;
+  color: white !important;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  margin-bottom: 20px;
   border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #b22222;
+  box-shadow: 0 0 0 2px rgba(178, 34, 34, 0.1);
 }
