@@ -30,6 +30,8 @@ function renderOrganizations(data) {
     const card = document.createElement("div");
     card.classList.add("card");
 
+    console.log(org.Leadership);
+
     card.innerHTML = `
                 <h3>${org["English Name"]}</h3>
                 <p>${org["Chinese Name"]}</p>
@@ -44,7 +46,18 @@ function renderOrganizations(data) {
                 ${org["Email"] ? `<p><strong>Email:</strong> <a href="mailto:${org["Email"]}">${org["Email"]}</a></p>` : ""}
 
                 ${org["Website"] ? `<a href="${org["Website"]}" target="_blank">Visit Website</a>` : ""}
-`;
+
+                ${org["Leadership"] && org["Leadership"].length > 0 ? `
+                  <div class="leadership">
+                  <strong>Leadership:</strong>
+                  <ul>
+                    ${org["Leadership"].map(person => `
+                      <li>${person.role}: ${person.name}</li>
+                    `).join("")}
+                  </ul>
+                </div>` : ""
+    }
+` ;
 
     container.appendChild(card);
   });
