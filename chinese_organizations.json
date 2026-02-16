@@ -1,0 +1,381 @@
+[
+  {
+    "ID": "1",
+    "Page": "8",
+    "English Name": "A BETTER CHINATOWN ASSOCIATION",
+    "Chinese Name": "",
+    "Established": "2019",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Eddie Flores",
+        "chinese_name": "林志雄"
+      },
+      {
+        "role": "Vice President",
+        "name": "Elisia Flores",
+        "chinese_name": "林美玲"
+      },
+      {
+        "role": "Vice President",
+        "name": "Peter Shi",
+        "chinese_name": "石國碧"
+      }
+    ]
+  },
+  {
+    "ID": "2",
+    "Page": "8",
+    "English Name": "ACUPUNCTURIST AND HERBALIST RESEARCH INSTITUTE OF HAWAII",
+    "Chinese Name": "夏威夷中醫藥師針灸科研學會",
+    "Established": "1990",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Dr. Anna Li",
+        "chinese_name": "李仲瑩"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Kenneth Siu, M.D.",
+        "chinese_name": "蕭敬修"
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Mary Li, M.D.",
+        "chinese_name": "李瑪莉"
+      }
+    ]
+  },
+  {
+    "ID": "3",
+    "Page": "8",
+    "English Name": "ASSOCIATED CHINESE UNIVERSITY WOMEN, INC. (ACUW)",
+    "Chinese Name": "大學華人婦女會",
+    "Established": "1931",
+    "Address": "P.O. Box 62264, Honolulu, HI 96839",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Brenda B. H. Young Matsui",
+        "chinese_name": "容寶鳳"
+      },
+      {
+        "role": "Vice President",
+        "name": "Betty Brow"
+      },
+      {
+        "role": "Secretary - Recording",
+        "name": "Ann Pang"
+      },
+      {
+        "role": "Secretary - Corresponding",
+        "name": "Jennifer Chun"
+      },
+      {
+        "role": "Secretary - Public Relations",
+        "name": "Joanne Ebesu"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Allison Eberly"
+      }
+    ]
+  },
+  {
+    "ID": "4",
+    "Page": "8",
+    "English Name": "ASSOCIATION OF CHINESE FROM SOUTH EAST ASIAN NATIONS",
+    "Chinese Name": "",
+    "Established": "1998",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President and Secretary",
+        "name": "Chu Lan Shubert-Kwock",
+        "chinese_name": "郭秋蘭"
+      },
+      {
+        "role": "Vice President",
+        "name": "Patricia Kramm"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Philip Tan"
+      }
+    ]
+  },
+  {
+    "ID": "5",
+    "Page": "8",
+    "English Name": "ASSOCIATION OF CHINESE FROM VIETNAM, CAMBODIA AND LAOS",
+    "Chinese Name": "夏威夷越棉寮華人聯誼會",
+    "Established": "1981",
+    "Address": "900 Maunakea Street, Honolulu, HI 96817",
+    "Phone": "808-531-3012",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Chief Governing Officer",
+        "name": "Thomas Sum",
+        "chinese_name": "沈文洲"
+      },
+      {
+        "role": "President",
+        "name": "Ben K. Tran",
+        "chinese_name": "陳啟邦"
+      },
+      {
+        "role": "Vice President and Secretary",
+        "name": "Diana Sum",
+        "chinese_name": "沈戴佩芳"
+      },
+      {
+        "role": "Vice President",
+        "name": "Jimmy Lam"
+      }
+    ]
+  },
+  {
+    "ID": "6",
+    "Page": "8",
+    "English Name": "BUCK TOY CLUB",
+    "Chinese Name": "北台同鄉會",
+    "Established": "1885",
+    "Address": "572 N. Vineyard Boulevard, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "bucktoyclub@icloud.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Guoming Li",
+        "chinese_name": "李國明"
+      },
+      {
+        "role": "Vice President",
+        "name": "Chao Hong Xu",
+        "chinese_name": "徐超鴻"
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Tim Wan Li",
+        "chinese_name": "李添環"
+      },
+      {
+        "role": "English Secretary",
+        "name": "Betty Ng",
+        "chinese_name": "吳兆嬡"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Rosa Young",
+        "chinese_name": "楊英"
+      }
+    ]
+  },
+  {
+    "ID": "7",
+    "Page": "9",
+    "English Name": "BUDDHA'S LIGHT INTERNATIONAL ASSOCIATION, HAWAII CHAPTER",
+    "Chinese Name": "國際佛光會夏威夷協會",
+    "Established": "1992",
+    "Address": "222 Queen Street, Honolulu, HI 96813",
+    "Phone": "808-545-1183",
+    "Fax": "808-545-1183",
+    "Email": "bliahawaii@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Shirley P. Lum",
+        "chinese_name": "林佩玲"
+      },
+      {
+        "role": "Vice President",
+        "name": "Yichun Chen",
+        "chinese_name": "陳怡君"
+      }
+    ]
+  },
+  {
+    "ID": "8",
+    "Page": "9",
+    "English Name": "CHANG WING YONG TONG",
+    "Chinese Name": "鄭榮陽堂",
+    "Established": "1956",
+    "Address": "1268 Young Street, Suite 301, Honolulu, HI 96814",
+    "Phone": "808-597-8135",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Vice President",
+        "name": "Sandra Young"
+      },
+      {
+        "role": "Secretary",
+        "name": "Melvin J.T. Chang"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Walter T.C. Chang"
+      }
+    ]
+  },
+  {
+    "ID": "9",
+    "Page": "9",
+    "English Name": "CHEE KUNG TONG SOCIETY",
+    "Chinese Name": "檀香山致公總堂",
+    "Established": "1892",
+    "Address": "100 N. Beretania Street, #301, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "cheekungtonghi@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Sharon Y.K. Chun",
+        "chinese_name": "秦玉金"
+      },
+      {
+        "role": "Vice President",
+        "name": "Henry H. Ou",
+        "chinese_name": "區洪"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Douglas D.L. Chong",
+        "chinese_name": "張帝倫"
+      },
+      {
+        "role": "Secretary",
+        "name": "Wilfred Lam"
+      }
+    ]
+  },
+  {
+    "ID": "10",
+    "Page": "9",
+    "English Name": "CHINATOWN BUSINESS & COMMUNITY ASSOCIATION (CBCA)",
+    "Chinese Name": "華埠商家與社區協會",
+    "Established": "2009",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Chu Lan Shubert-Kwock",
+        "chinese_name": "郭秋蘭"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "David Chang"
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Ernest W.G. Loo",
+        "chinese_name": "盧煌錦"
+      },
+      {
+        "role": "Secretary",
+        "name": "Stanley Oswalt"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Laura Sturges"
+      }
+    ]
+  },
+  {
+    "ID": "11",
+    "Page": "9",
+    "English Name": "CHINATOWN 808",
+    "Chinese Name": "",
+    "Established": "2022",
+    "Address": "P.O. Box 37224, Honolulu, HI 96837",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Leonard J.K.H. Kam",
+        "chinese_name": "甘錦雄"
+      },
+      {
+        "role": "Vice President",
+        "name": "Kalene Sakamoto"
+      },
+      {
+        "role": "Vice President",
+        "name": "Sarah Young"
+      },
+      {
+        "role": "Secretary",
+        "name": "Clinton Wong"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Eileen Chun"
+      }
+    ]
+  },
+  {
+    "ID": "12",
+    "Page": "9",
+    "English Name": "CHINESE BUDDHIST ASSOCIATION OF HAWAII - (HSU YUN TEMPLE)",
+    "Chinese Name": "檀香山華僑佛教會（虚雲禪寺）",
+    "Established": "1953",
+    "Address": "42 Kawananakoa Place, Honolulu, HI 96817",
+    "Phone": "808-536-8458",
+    "Fax": "808-599-6025",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Jeanne Lum",
+        "chinese_name": "林程展睿"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Pau Sheng Wei",
+        "chinese_name": "尉柏生"
+      },
+      {
+        "role": "Secretary",
+        "name": "Betty Tung",
+        "chinese_name": "趙淑芳"
+      }
+    ]
+  }
+]
