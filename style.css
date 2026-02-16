@@ -1,3 +1,10 @@
+.controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
 .card {
   border: 1px solid #e5e5e5;
   padding: 20px;
@@ -47,19 +54,58 @@
   border-radius: 6px;
   font-size: 0.85rem;
 }
+.search-wrapper {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+}
 
 .search-bar {
   width: 100%;
-  max-width: 400px;
-  padding: 10px 14px;
-  margin-bottom: 20px;
+  padding: 10px 36px 10px 14px;
   border-radius: 8px;
   border: 1px solid #ddd;
   font-size: 0.95rem;
+  box-sizing: border-box;
 }
 
-.search-bar:focus {
-  outline: none;
-  border-color: #b22222;
-  box-shadow: 0 0 0 2px rgba(178, 34, 34, 0.1);
+.clear-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+
+  display: none;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 1;
+  color: #999;
+}
+
+.clear-btn:hover {
+  color: #b22222;
+}
+
+.filter-dropdown {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.results-count {
+  margin-bottom: 12px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px 0;
+  color: #777;
 }

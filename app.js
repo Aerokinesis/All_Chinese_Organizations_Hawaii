@@ -1,29 +1,36 @@
 const container = document.getElementById("directory");
 const searchInput = document.getElementById("searchInput");
+const clearBtn = document.getElementById("clearBtn");
+const resultsCount = document.getElementById("resultsCount");
 
-let organizations = []; // store data globally
+let organizations = [];
 
+// Fetch data
 fetch("chinese_organizations.json")
-    .then(response => response.json())
-    .then(data => {
-        organizations = data;
-        renderOrganizations(organizations);
-    })
-    .catch(error => console.error("Error loading data:", error));
+  .then((response) => response.json())
+  .then((data) => {
+    organizations = data;
+    renderOrganizations(data);
+  })
+  .catch((error) => console.error("Error loading data:", error));
 
-    function renderOrganizations(data) {
-        container.innerHTML = ""; // clear existing cards
-        
-        if (data.length === 0) {
-            container.innerHTML = `<p class="no-results">No results found.</p>`;
-            return;
-        }
+// Render cards
+function renderOrganizations(data) {
+  container.innerHTML = "";
 
-        data.forEach(org => {
-            const card = document.createElement("div");
-            card.classList.add("card");
+  if (data.length === 0) {
+    resultsCount.textContent = "No organizations found.";
+    container.innerHTML = `<p class="no-results">No results found.</p>`;
+    return;
+  }
 
-            card.innerHTML = `
+  resultsCount.textContent = `${data.length} result${data.length !== 1 ? "s" : ""} found.`;
+
+  data.forEach((org) => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+
+    card.innerHTML = `
                 <h3>${org["English Name"]}</h3>
                 <p>${org["Chinese Name"]}</p>
 
@@ -43,8 +50,12 @@ fetch("chinese_organizations.json")
   });
 }
 
+// Live search
 searchInput.addEventListener("input", function () {
-  const searchTerm = this.value.toLowerCase();
+  const searchTerm = this.value.toLowerCase().trim();
+
+  // 👇 SHOW OR HIDE CLEAR BUTTON
+  clearBtn.style.display = searchTerm ? "block" : "none";
 
   const filtered = organizations.filter(org =>
     (org["English Name"] || "").toLowerCase().includes(searchTerm) ||
@@ -55,14 +66,9 @@ searchInput.addEventListener("input", function () {
   renderOrganizations(filtered);
 });
 
-searchInput.addEventListener("input", function () {
-  const searchTerm = this.value.toLowerCase();
-
-  const filtered = organizations.filter(org =>
-    (org["English Name"] || "").toLowerCase().includes(searchTerm) ||
-    (org["Chinese Name"] || "").toLowerCase().includes(searchTerm) ||
-    (org["Address"] || "").toLowerCase().includes(searchTerm)
-  );
-
-  renderOrganizations(filtered);
+// Clear button
+clearBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  clearBtn.style.display = "none";
+  renderOrganizations(organizations);
 });

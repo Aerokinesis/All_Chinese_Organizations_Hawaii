@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List of Chinese Organizations</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-<input 
-    type="text" 
-    id="searchInput" 
-    placeholder="Search organizations..." 
-    class="search-bar">
-  <div id="directory"></div>
-  <script src="/app.js"></script>
-</body>
-</html>
+    <div class="controls">
+
+  <div class="search-wrapper">
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search organizations..." 
+      class="search-bar"
+    />
+    <button id="clearBtn" class="clear-btn">&times;</button>
+  </div>
+
+</div>
+
+<p id="resultsCount" class="results-count"></p>
+
+<div id="directory"></div>
+    <script src="/app.js"></script>
+</body >
+</html >
