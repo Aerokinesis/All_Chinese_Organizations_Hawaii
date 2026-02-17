@@ -166,14 +166,33 @@ function renderOrganizations(data) {
 
                 ${org["Established"] ? `<p><strong>Established:</strong> ${highlightMatch(org["Established"], searchTerm)}</p>` : ""}
 
-                ${org["Address"] ? `
+                ${org["Address"] ? (() => {
+
+                  const address = org["Address"];
+                  const isPOBox = address.trim().toLowerCase().startsWith("p.o. box");
+
+                  if (isPOBox) {
+                    // Do NOT link P.O. Boxes
+                    return `
+                      <p>
+                        <strong>Address:</strong>
+                        ${highlightMatch(address, searchTerm)}
+                      </p>
+                    `;
+                  }
+
+                  // Link street addresses
+                  return `
                     <p>
                       <strong>Address:</strong>
-                      <a href="https://www.google.com/maps/search/${encodeURIComponent(org["Address"])}" target="_blank">
-                        ${highlightMatch(org["Address"], searchTerm)}
+                      <a href="https://www.google.com/maps/search/${encodeURIComponent(address)}" target="_blank">
+                        ${highlightMatch(address, searchTerm)}
                       </a>
                     </p>
-                ` : ""}
+                  `;
+
+                })() : ""}
+
 
 
 

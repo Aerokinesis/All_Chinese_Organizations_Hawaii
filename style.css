@@ -124,3 +124,9 @@
 .leadership li {
     font-size: 0.9rem;
 }
+
+mark {
+    background-color: #ffe58a;
+    padding: 0 2px;
+    border-radius: 3px;
+}
