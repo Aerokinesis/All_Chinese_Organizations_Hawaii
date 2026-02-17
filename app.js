@@ -30,7 +30,7 @@ function renderOrganizations(data) {
     const card = document.createElement("div");
     card.classList.add("card");
 
-    console.log(org.Leadership);
+    //console.log(org.Leadership);
 
     card.innerHTML = `
                 <h3>${org["English Name"]}</h3>
@@ -56,7 +56,7 @@ function renderOrganizations(data) {
                       `).join("")}
                     </ul>
                   </div>` : ""
-    }
+      }
 ` ;
 
     container.appendChild(card);
@@ -67,17 +67,53 @@ function renderOrganizations(data) {
 searchInput.addEventListener("input", function () {
   const searchTerm = this.value.toLowerCase().trim();
 
-  // 👇 SHOW OR HIDE CLEAR BUTTON
   clearBtn.style.display = searchTerm ? "block" : "none";
 
-  const filtered = organizations.filter(org =>
+  const filtered = organizations.filter(org => {
+
+  const establishedYear = parseInt((org["Established"] || "").match(/\d{4}/)?.[0]);
+
+  let yearMatch = false;
+
+  // Exact year search (e.g. 1898)
+  if (/^\d{4}$/.test(searchTerm)) {
+    yearMatch = establishedYear === parseInt(searchTerm);
+  }
+
+  // Range search (e.g. 1900-1950)
+  else if (/^\d{4}-\d{4}$/.test(searchTerm)) {
+    const [start, end] = searchTerm.split("-").map(Number);
+    yearMatch = establishedYear >= start && establishedYear <= end;
+  }
+
+  // Greater than (e.g. >1950)
+  else if (/^>\d{4}$/.test(searchTerm)) {
+    yearMatch = establishedYear > parseInt(searchTerm.slice(1));
+  }
+
+  // Less than (e.g. <1900)
+  else if (/^<\d{4}$/.test(searchTerm)) {
+    yearMatch = establishedYear < parseInt(searchTerm.slice(1));
+  }
+
+  const basicMatch =
     (org["English Name"] || "").toLowerCase().includes(searchTerm) ||
     (org["Chinese Name"] || "").toLowerCase().includes(searchTerm) ||
-    (org["Address"] || "").toLowerCase().includes(searchTerm)
+    (org["Address"] || "").toLowerCase().includes(searchTerm);
+
+  const leadershipMatch = (org["Leadership"] || []).some(person =>
+    (person.role || "").toLowerCase().includes(searchTerm) ||
+    (person.name || "").toLowerCase().includes(searchTerm) ||
+    (person.chinese_name || "").toLowerCase().includes(searchTerm)
   );
+
+  return basicMatch || leadershipMatch || yearMatch;
+});
+
 
   renderOrganizations(filtered);
 });
+
 
 // Clear button
 clearBtn.addEventListener("click", () => {
