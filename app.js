@@ -2,6 +2,57 @@ const container = document.getElementById("directory");
 const searchInput = document.getElementById("searchInput");
 const clearBtn = document.getElementById("clearBtn");
 const resultsCount = document.getElementById("resultsCount");
+const nameSort = document.getElementById("nameSort");
+const yearSort = document.getElementById("yearSort");
+
+function escapeRegex(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function highlightMatch(text, searchTerm) {
+  if (!searchTerm) return text;
+
+  const safeSearch = escapeRegex(searchTerm);
+  const regex = new RegExp(`(${safeSearch})`, "gi");
+
+  return text.replace(regex, `<mark>$1</mark>`);
+}
+
+function highlightPhone(phone, searchTerm) {
+  if (!searchTerm) return phone;
+
+  const digitsOnlySearch = searchTerm.replace(/\D/g, "");
+  if (!digitsOnlySearch) {
+    return highlightMatch(phone, searchTerm);
+  }
+
+  const digitsOnlyPhone = phone.replace(/\D/g, "");
+
+  const index = digitsOnlyPhone.indexOf(digitsOnlySearch);
+  if (index === -1) return phone;
+
+  // Map digit positions back to formatted phone string
+  let digitCount = 0;
+  let result = "";
+  let matchStart = index;
+  let matchEnd = index + digitsOnlySearch.length;
+
+  for (let i = 0; i < phone.length; i++) {
+    if (/\d/.test(phone[i])) {
+      if (digitCount === matchStart) result += "<mark>";
+      if (digitCount === matchEnd) result += "</mark>";
+
+      digitCount++;
+    }
+
+    result += phone[i];
+  }
+
+  if (digitCount === matchEnd) result += "</mark>";
+
+  return result;
+}
+
 
 let organizations = [];
 
@@ -14,9 +65,85 @@ fetch("chinese_organizations.json")
   })
   .catch((error) => console.error("Error loading data:", error));
 
+function applyFilters() {
+  const searchTerm = searchInput.value.toLowerCase().trim();
+
+  let filtered = organizations.filter(org => {
+
+    const establishedYear = parseInt(
+      (org["Established"] || "").match(/\d{4}/)?.[0]
+    );
+
+    let yearMatch = false;
+
+    if (/^\d{4}$/.test(searchTerm)) {
+      yearMatch = establishedYear === parseInt(searchTerm);
+    }
+
+    // Remove non-digits from search term
+    const numericSearch = searchTerm.replace(/\D/g, "");
+
+    const phoneDigits = (org["Phone"] || "").replace(/\D/g, "");
+
+    const basicMatch =
+      (org["English Name"] || "").toLowerCase().includes(searchTerm) ||
+      (org["Chinese Name"] || "").toLowerCase().includes(searchTerm) ||
+      (org["Address"] || "").toLowerCase().includes(searchTerm) ||
+      (org["Phone"] || "").toLowerCase().includes(searchTerm) ||
+      (numericSearch && phoneDigits.includes(numericSearch));
+
+
+    const safeSearch = escapeRegex(searchTerm);
+    const searchRegex = new RegExp(`\\b${safeSearch}\\b`, "i");
+
+    const leadershipMatch = (org["Leadership"] || []).some(person =>
+      searchRegex.test(person.role || "") ||
+      searchRegex.test(person.name || "") ||
+      searchRegex.test(person.chinese_name || "")
+    );
+
+    return basicMatch || leadershipMatch || yearMatch;
+  });
+
+  // 🔹 SORTING
+  filtered.sort((a, b) => {
+
+    const yearA = parseInt((a["Established"] || "").match(/\d{4}/)?.[0]) || 0;
+    const yearB = parseInt((b["Established"] || "").match(/\d{4}/)?.[0]) || 0;
+
+    const nameA = (a["English Name"] || "");
+    const nameB = (b["English Name"] || "");
+
+    // 🔹 If year sort is selected, apply it first
+    if (yearSort.value === "old" && yearA !== yearB) {
+      return yearA - yearB;
+    }
+
+    if (yearSort.value === "new" && yearA !== yearB) {
+      return yearB - yearA;
+    }
+
+    // 🔹 Then apply name sort
+    if (nameSort.value === "az") {
+      return nameA.localeCompare(nameB);
+    }
+
+    if (nameSort.value === "za") {
+      return nameB.localeCompare(nameA);
+    }
+
+    return 0;
+  });
+
+
+  renderOrganizations(filtered);
+}
+
 // Render cards
 function renderOrganizations(data) {
   container.innerHTML = "";
+  const searchTerm = searchInput.value.toLowerCase().trim();
+
 
   if (data.length === 0) {
     resultsCount.textContent = "No organizations found.";
@@ -33,13 +160,33 @@ function renderOrganizations(data) {
     //console.log(org.Leadership);
 
     card.innerHTML = `
-                <h3>${org["English Name"]}</h3>
-                <p>${org["Chinese Name"]}</p>
+                <h3>${highlightMatch(org["English Name"] || "", searchTerm)}</h3>
+                <p>${highlightMatch(org["Chinese Name"] || "", searchTerm)}</p>
 
-                ${org["Established"] ? `<p><strong>Established:</strong> ${org["Established"]}</p>` : ""}
-                ${org["Address"] ? `<p><strong>Address</strong>: ${org["Address"]}</p>` : ""}
 
-                ${org["Phone"] ? `<p><strong>Phone:</strong> <a href="tel:${org["Phone"].replace(/\D/g, "")}">${org["Phone"]}</a></p>` : ""}
+                ${org["Established"] ? `<p><strong>Established:</strong> ${highlightMatch(org["Established"], searchTerm)}</p>` : ""}
+
+                ${org["Address"] ? `
+                    <p>
+                      <strong>Address:</strong>
+                      <a href="https://www.google.com/maps/search/${encodeURIComponent(org["Address"])}" target="_blank">
+                        ${highlightMatch(org["Address"], searchTerm)}
+                      </a>
+                    </p>
+                ` : ""}
+
+
+
+                ${org["Phone"] ? `
+                  <p>
+                    <strong>Phone:</strong>
+                    <a href="tel:${org["Phone"].replace(/\D/g, "")}">
+                      ${highlightPhone(org["Phone"], searchTerm)}
+                    </a>
+                  </p>
+                ` : ""}
+
+
 
                 ${org["Fax"] ? `<p><strong>Fax:</strong> ${org["Fax"]}</p>` : ""}
 
@@ -52,7 +199,11 @@ function renderOrganizations(data) {
                     <strong>Leadership:</strong>
                     <ul>
                       ${org["Leadership"].map(person => `
-                        <li>${person.role}: ${person.name} ${person.chinese_name}</li>
+                        <li>
+                          ${highlightMatch(person.role || "", searchTerm)}:
+                          ${highlightMatch(person.name || "", searchTerm)}
+                          ${highlightMatch(person.chinese_name || "", searchTerm)}
+                        </li>
                       `).join("")}
                     </ul>
                   </div>` : ""
@@ -65,59 +216,17 @@ function renderOrganizations(data) {
 
 // Live search
 searchInput.addEventListener("input", function () {
-  const searchTerm = this.value.toLowerCase().trim();
-
-  clearBtn.style.display = searchTerm ? "block" : "none";
-
-  const filtered = organizations.filter(org => {
-
-  const establishedYear = parseInt((org["Established"] || "").match(/\d{4}/)?.[0]);
-
-  let yearMatch = false;
-
-  // Exact year search (e.g. 1898)
-  if (/^\d{4}$/.test(searchTerm)) {
-    yearMatch = establishedYear === parseInt(searchTerm);
-  }
-
-  // Range search (e.g. 1900-1950)
-  else if (/^\d{4}-\d{4}$/.test(searchTerm)) {
-    const [start, end] = searchTerm.split("-").map(Number);
-    yearMatch = establishedYear >= start && establishedYear <= end;
-  }
-
-  // Greater than (e.g. >1950)
-  else if (/^>\d{4}$/.test(searchTerm)) {
-    yearMatch = establishedYear > parseInt(searchTerm.slice(1));
-  }
-
-  // Less than (e.g. <1900)
-  else if (/^<\d{4}$/.test(searchTerm)) {
-    yearMatch = establishedYear < parseInt(searchTerm.slice(1));
-  }
-
-  const basicMatch =
-    (org["English Name"] || "").toLowerCase().includes(searchTerm) ||
-    (org["Chinese Name"] || "").toLowerCase().includes(searchTerm) ||
-    (org["Address"] || "").toLowerCase().includes(searchTerm);
-
-  const leadershipMatch = (org["Leadership"] || []).some(person =>
-    (person.role || "").toLowerCase().includes(searchTerm) ||
-    (person.name || "").toLowerCase().includes(searchTerm) ||
-    (person.chinese_name || "").toLowerCase().includes(searchTerm)
-  );
-
-  return basicMatch || leadershipMatch || yearMatch;
+  clearBtn.style.display = this.value ? "block" : "none";
+  applyFilters();
 });
 
-
-  renderOrganizations(filtered);
-});
+nameSort.addEventListener("change", applyFilters);
+yearSort.addEventListener("change", applyFilters);
 
 
 // Clear button
 clearBtn.addEventListener("click", () => {
   searchInput.value = "";
   clearBtn.style.display = "none";
-  renderOrganizations(organizations);
+  applyFilters();
 });
