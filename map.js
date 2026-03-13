@@ -1,59 +1,48 @@
-// Create the map
-const map = L.map('map').setView([21.3099, -157.8581], 12);
+// Create map
+const map = L.map("map").setView([21.3099, -157.8581], 12);
 
-// Map tiles
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '© OpenStreetMap'
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: "© OpenStreetMap"
 }).addTo(map);
 
+// store markers
+const markers = {};
+const markerLayer = L.layerGroup().addTo(map);
 
-// Convert address to coordinates
-async function geocodeAddress(address) {
 
-  const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`;
+// Create markers
+function addMarkers(data) {
 
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
+  markerLayer.clearLayers();
 
-    if (data.length > 0) {
-      return {
-        lat: parseFloat(data[0].lat),
-        lng: parseFloat(data[0].lon)
-      };
-    }
+  data.forEach(org => {
 
-  } catch (err) {
-    console.error("Geocode error:", err);
-  }
+    if (!org.lat || !org.lng) return;
 
-  return null;
+    const marker = L.marker([org.lat, org.lng])
+      .bindPopup(`
+        <b>${org["English Name"]}</b><br>
+        ${org["Address"]}
+      `);
+
+    markerLayer.addLayer(marker);
+
+    markers[org["English Name"]] = marker;
+
+  });
+
 }
 
 
-// Add markers using addresses
-async function addMarkers(data) {
+// Zoom to organization
+function zoomToOrganization(name) {
 
-  for (const org of data) {
+  const marker = markers[name];
 
-    const address = org["Address"];
+  if (!marker) return;
 
-    if (!address) continue;
+  map.setView(marker.getLatLng(), 16);
 
-    // Skip PO boxes
-    if (address.toLowerCase().startsWith("p.o. box")) continue;
-
-    const location = await geocodeAddress(address);
-
-    if (!location) continue;
-
-    L.marker([location.lat, location.lng])
-      .addTo(map)
-      .bindPopup(`
-        <b>${org["English Name"]}</b><br>
-        ${address}
-      `);
-
-  }
+  marker.openPopup();
 
 }

@@ -61,8 +61,11 @@ fetch("chinese_organizations_geocoded.json")
   .then((response) => response.json())
   .then((data) => {
     organizations = data;
-    addMarkers(data);
+
     renderOrganizations(data);
+    addMarkers(data);
+    
+    buildTimeline(data);
   })
   .catch((error) => console.error("Error loading data:", error));
 
@@ -136,8 +139,8 @@ function applyFilters() {
     return 0;
   });
 
-
   renderOrganizations(filtered);
+  addMarkers(filtered);
 }
 
 // Render cards
@@ -158,6 +161,10 @@ function renderOrganizations(data) {
   data.forEach((org) => {
     const card = document.createElement("div");
     card.classList.add("card");
+
+    card.addEventListener("click", () => {
+      zoomToOrganization(org["English Name"]);
+    });
 
     card.innerHTML = `
                 <h3>${highlightMatch(org["English Name"] || "", searchTerm)}</h3>
@@ -234,9 +241,12 @@ function renderOrganizations(data) {
 }
 
 // Live search
-searchInput.addEventListener("input", function () {
-  clearBtn.style.display = this.value ? "block" : "none";
+searchInput.addEventListener("input", () => {
+
+  clearBtn.style.display = searchInput.value ? "block" : "none";
+
   applyFilters();
+
 });
 
 nameSort.addEventListener("change", applyFilters);
