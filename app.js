@@ -57,10 +57,11 @@ function highlightPhone(phone, searchTerm) {
 let organizations = [];
 
 // Fetch data
-fetch("chinese_organizations.json")
+fetch("chinese_organizations_geocoded.json")
   .then((response) => response.json())
   .then((data) => {
     organizations = data;
+    addMarkers(data);
     renderOrganizations(data);
   })
   .catch((error) => console.error("Error loading data:", error));
@@ -142,6 +143,7 @@ function applyFilters() {
 // Render cards
 function renderOrganizations(data) {
   container.innerHTML = "";
+
   const searchTerm = searchInput.value.toLowerCase().trim();
 
 
@@ -157,8 +159,6 @@ function renderOrganizations(data) {
     const card = document.createElement("div");
     card.classList.add("card");
 
-    //console.log(org.Leadership);
-
     card.innerHTML = `
                 <h3>${highlightMatch(org["English Name"] || "", searchTerm)}</h3>
                 <p>${highlightMatch(org["Chinese Name"] || "", searchTerm)}</p>
@@ -168,21 +168,21 @@ function renderOrganizations(data) {
 
                 ${org["Address"] ? (() => {
 
-                  const address = org["Address"];
-                  const isPOBox = address.trim().toLowerCase().startsWith("p.o. box");
+        const address = org["Address"];
+        const isPOBox = address.trim().toLowerCase().startsWith("p.o. box");
 
-                  if (isPOBox) {
-                    // Do NOT link P.O. Boxes
-                    return `
+        if (isPOBox) {
+          // Do NOT link P.O. Boxes
+          return `
                       <p>
                         <strong>Address:</strong>
                         ${highlightMatch(address, searchTerm)}
                       </p>
                     `;
-                  }
+        }
 
-                  // Link street addresses
-                  return `
+        // Link street addresses
+        return `
                     <p>
                       <strong>Address:</strong>
                       <a href="https://www.google.com/maps/search/${encodeURIComponent(address)}" target="_blank">
@@ -191,7 +191,7 @@ function renderOrganizations(data) {
                     </p>
                   `;
 
-                })() : ""}
+      })() : ""}
 
 
 
