@@ -8,67 +8,82 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
 </head>
 
 <body>
 
-  <h1>Chinese Organizations in Honolulu</h1>
+  <div class="sidebar">
 
-  <!-- TIMELINE AT TOP -->
-  <section id="timeline">
+    <!-- TIMELINE -->
+    <section id="timeline">
+      <h2>Research Timeline</h2>
+      <div class="timeline-wrapper">
+        <input type="range" id="yearSlider" min="1850" max="2025" step="1" value="2025">
+        <div id="yearDisplay">Showing organizations up to: 2025</div>
+      </div>
+    </section>
 
-    <h2>Research Timeline</h2>
+    <!-- SEARCH + SORT CONTROLS -->
+    <div class="controls">
 
-    <div class="timeline-wrapper">
-
-      <input type="range" id="yearSlider" min="1850" max="2025" step="1" value="2025">
-
-      <div id="yearDisplay">
-        Showing organizations up to: 2025
+      <div class="search-wrapper">
+        <input id="searchInput" type="text" placeholder="Search organizations">
+        <button id="clearBtn" aria-label="Clear search">&times;</button>
       </div>
 
+      <select id="nameSort">
+        <option value="az">Name A–Z</option>
+        <option value="za">Name Z–A</option>
+      </select>
+
+      <select id="yearSort">
+        <option value="">Year</option>
+        <option value="old">Oldest → Newest</option>
+        <option value="new">Newest → Oldest</option>
+      </select>
+
     </div>
 
-  </section>
+    <div id="resultsCount" class="results-count"></div>
 
-  <div id="resultsCount"></div>
-
-  <!-- SEARCH + SORT -->
-  <div class="controls">
-
-    <div class="search-wrapper">
-      <input id="searchInput" type="text" placeholder="Search organizations">
-      <button id="clearBtn" aria-label="Clear search">&times;</button>
-    </div>
-
-    <select id="nameSort">
-      <option value="az">Name A–Z</option>
-      <option value="za">Name Z–A</option>
-    </select>
-
-    <select id="yearSort">
-      <option value="">Year</option>
-      <option value="old">Oldest → Newest</option>
-      <option value="new">Newest → Oldest</option>
-    </select>
-
-  </div>
-
-
-  <!-- DIRECTORY + MAP -->
-  <div class="layout">
-
+    <!-- DIRECTORY LIST -->
     <div id="directory"></div>
 
-    <div id="map"></div>
+    <!-- BACK TO TOP -->
+    <button id="backToTop" aria-label="Back to top">↑ Top</button>
 
   </div>
+
+  <!-- MAP -->
+  <div id="map"></div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="map.js" defer></script>
   <script src="app.js" defer></script>
   <script src="timeline.js" defer></script>
+
+  <script>
+    // Keyboard shortcut: press "/" to focus search
+    document.addEventListener("keydown", (e) => {
+      const tag = document.activeElement.tagName;
+      if (e.key === "/" && tag !== "INPUT" && tag !== "TEXTAREA" && tag !== "SELECT") {
+        e.preventDefault();
+        document.getElementById("searchInput").focus();
+      }
+    });
+
+    // Back to top button
+    const directory = document.getElementById("directory");
+    const backToTop = document.getElementById("backToTop");
+
+    directory.addEventListener("scroll", () => {
+      backToTop.classList.toggle("visible", directory.scrollTop > 200);
+    });
+
+    backToTop.addEventListener("click", () => {
+      directory.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
 
 </body>
 

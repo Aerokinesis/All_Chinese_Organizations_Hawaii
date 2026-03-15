@@ -53,6 +53,15 @@ function highlightPhone(phone, searchTerm) {
   return result;
 }
 
+function getSortKey(name) {
+  return name
+    .replace(/^\(THE\)\s*/i, "")
+    .replace(/^THE\s+/i, "")
+    .replace(/^A\s+/i, "")
+    .replace(/^AN\s+/i, "")
+    .trim();
+}
+
 
 let organizations = [];
 
@@ -115,8 +124,8 @@ function applyFilters() {
     const yearA = parseInt((a["Established"] || "").match(/\d{4}/)?.[0]) || 0;
     const yearB = parseInt((b["Established"] || "").match(/\d{4}/)?.[0]) || 0;
 
-    const nameA = (a["English Name"] || "");
-    const nameB = (b["English Name"] || "");
+    const nameA = getSortKey(a["English Name"] || "");
+    const nameB = getSortKey(b["English Name"] || "");
 
     // 🔹 If year sort is selected, apply it first
     if (yearSort.value === "old" && yearA !== yearB) {

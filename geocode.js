@@ -43,11 +43,11 @@ async function run() {
 
         if (!address) continue;
 
-        if (address.toLowerCase().startsWith("p.o. box")) {
-            console.log("Skipping PO Box:", address);
+        if (address.toLowerCase().startsWith("p.o. box") || address.toLowerCase().startsWith("c/o")) {
+            console.log("Skipping PO Box / c/o address:", address);
             continue;
         }
-
+        
         console.log("Geocoding:", address);
 
         const coords = await geocode(address);

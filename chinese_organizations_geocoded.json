@@ -288,8 +288,8 @@
         "chinese_name": ""
       }
     ],
-    "lat": 21.3142247,
-    "lng": -157.861533
+    "lat": 21.3135792,
+    "lng": -157.86115
   },
   {
     "ID": "10",
@@ -396,5 +396,3277 @@
     ],
     "lat": 21.3273555,
     "lng": -157.8482605
+  },
+  {
+    "ID": "13",
+    "English Name": "CHINESE CATHOLIC CLUB OF HONOLULU",
+    "Chinese Name": "檀華天主教會",
+    "Established": "1925",
+    "Address": "P.O. Box 458, Honolulu, HI 96809",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Ben Lui-Kwan",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Dr. Malia Lee Lewis",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Puanani Higgins",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "14",
+    "English Name": "CHINESE CHAMBER OF COMMERCE OF HAWAII",
+    "Chinese Name": "夏威夷中華總商會",
+    "Established": "1911",
+    "Address": "8 S. King Street, #201, Honolulu, HI 96813",
+    "Phone": "808-533-3181",
+    "Fax": "",
+    "Email": "info@chinesechamber.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Sarah Moy",
+        "chinese_name": "李沙羣"
+      },
+      {
+        "role": "President-Elect (assumes June 2025)",
+        "name": "Gabriel Lee",
+        "chinese_name": ""
+      },
+      {
+        "role": "Narcissus Festival VP",
+        "name": "Angeline Shiroma",
+        "chinese_name": "謝讚美"
+      },
+      {
+        "role": "Business Programs VP",
+        "name": "Cy S. Y. Feng",
+        "chinese_name": "馮賽源"
+      },
+      {
+        "role": "Membership VP",
+        "name": "Tony Shi",
+        "chinese_name": "石嵩山"
+      }
+    ],
+    "lat": 21.3104361,
+    "lng": -157.86276
+  },
+  {
+    "ID": "15",
+    "English Name": "CHINESE COMMUNITY BROADCASTING INC.",
+    "Chinese Name": "夏威夷中文電視臺",
+    "Established": "",
+    "Address": "200 N. Vineyard Blvd., Ste. B256, Honolulu, HI 96817",
+    "Phone": "808-523-7623",
+    "Fax": "808-521-0764",
+    "Email": "hawaiichinesetv@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President and Managing Director",
+        "name": "Yao He",
+        "chinese_name": "何要"
+      },
+      {
+        "role": "Administrative Assistant",
+        "name": "Carmen Lam",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "16",
+    "English Name": "CHINESE CULTURAL CLUB",
+    "Chinese Name": "中國文化俱樂部",
+    "Established": "1969",
+    "Address": "1640 Lanakila Avenue, Honolulu, HI 96817 (Lanakila Multipurpose Senior Center)",
+    "Phone": "808-847-1322",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Dorothy Chun Mau",
+        "chinese_name": "毛陳妙佳"
+      },
+      {
+        "role": "Vice President",
+        "name": "Cindy Choy",
+        "chinese_name": "蔡敬儀"
+      },
+      {
+        "role": "Secretary",
+        "name": "Blossom Mew Lin Mau",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "17",
+    "English Name": "CHINESE FOLK ART DANCE ORGANIZATION",
+    "Chinese Name": "中華文藝舞蹈團",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Director",
+        "name": "Shu-Fang Lin Leahy",
+        "chinese_name": "林淑芳"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Chun Uin Cheung",
+        "chinese_name": "張春燕"
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Chyrl L. Rodley",
+        "chinese_name": "羅雪露"
+      }
+    ]
+  },
+  {
+    "ID": "18",
+    "English Name": "CHINESE TEA CLUB OF HAWAII",
+    "Chinese Name": "華人茶會",
+    "Established": "1997",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Jin Peng",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "19",
+    "English Name": "(THE) CHINESE WOMEN'S BENEVOLENT ASSOCIATION OF HAWAII",
+    "Chinese Name": "檀香山中國婦女慈善會",
+    "Established": "1955",
+    "Address": "1330 Ala Moana Blvd. #1105, Honolulu, HI 96814",
+    "Phone": "808-597-8811",
+    "Fax": "808-591-1838",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President and Secretary",
+        "name": "Dr. Lily Sui-Fong Sun",
+        "chinese_name": "孫穗芳"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Christina Wong",
+        "chinese_name": "黄靜華"
+      }
+    ],
+    "lat": 21.291955,
+    "lng": -157.8490374
+  },
+  {
+    "ID": "20",
+    "English Name": "(THE) CHINESE WOMEN'S CLUB OF HONOLULU",
+    "Chinese Name": "檀香山華人婦女會",
+    "Established": "1928",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Dr. Roberta Wong Leong",
+        "chinese_name": "歐黄艶婷"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Sharlene Y. Chun",
+        "chinese_name": "陳余秀珍"
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Lenora Loo",
+        "chinese_name": ""
+      },
+      {
+        "role": "Recording Secretary",
+        "name": "Gretchen Jong",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Jeannette Ching",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "21",
+    "English Name": "CHING CLAN BENEVOLENT SOCIETY OF HAWAII",
+    "Chinese Name": "程族同宗會",
+    "Established": "1949",
+    "Address": "353 Merchant St. Suite 792, Honolulu, HI 96814-9998",
+    "Phone": "",
+    "Fax": "",
+    "Email": "chingclan@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Michele Ching Choy",
+        "chinese_name": "程金秀"
+      },
+      {
+        "role": "Vice President",
+        "name": "Dr. Juanita Ching Liu",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Sharlene Y. Chun",
+        "chinese_name": "陳余秀珍"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Pearl K. M. Ching",
+        "chinese_name": ""
+      },
+      {
+        "role": "Auditor",
+        "name": "Robert K. C. Ching",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.3063509,
+    "lng": -157.8602855
+  },
+  {
+    "ID": "22",
+    "English Name": "CHING WAN MUSIC & DRAMA SOCIETY",
+    "Chinese Name": "清韻音樂戲劇研究社",
+    "Established": "1948",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Mi Wan Ching Wong",
+        "chinese_name": "程美雲"
+      },
+      {
+        "role": "Vice President",
+        "name": "Anna Y.P. Chan",
+        "chinese_name": "陳一萍"
+      },
+      {
+        "role": "English Secretary",
+        "name": "Susan Arkoff",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Wendy Chan",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "23",
+    "English Name": "CHINOISERIE SOCIETY OF HAWAII",
+    "Chinese Name": "中國風藝研社",
+    "Established": "2022",
+    "Address": "P.O. Box 1839, Honolulu, HI 96824-1839",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Founder/President/Executive Director",
+        "name": "Barinna Poon",
+        "chinese_name": "潘沅芷"
+      },
+      {
+        "role": "Secretary/Treasurer",
+        "name": "Karen Poon",
+        "chinese_name": "潘杜敏"
+      },
+      {
+        "role": "Director of Operation",
+        "name": "Nancy Ma",
+        "chinese_name": "馬曉紅"
+      }
+    ]
+  },
+  {
+    "ID": "24",
+    "English Name": "CHUNG CHUNG ALUMNI ASSOCIATION OF HAWAII",
+    "Chinese Name": "夏威夷中中同學會",
+    "Established": "1988",
+    "Address": "P.O. Box 240747, Honolulu, HI 96824",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Cai Shu Lee",
+        "chinese_name": "李彩虹"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Philip Miao",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "25",
+    "English Name": "CHUNG SHAN ASSOCIATION OF HAWAII",
+    "Chinese Name": "檀香山中山同鄉會",
+    "Established": "1950",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Rodney K.F. Chong",
+        "chinese_name": "張錦輝"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Wesley Mun",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Cy Feng",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "26",
+    "English Name": "CHUNG WAH CHUNG KUNG HUI",
+    "Chinese Name": "中華總工會",
+    "Established": "1917",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President/Secretary",
+        "name": "Chu Lan Shubert-Kwock",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Robert W. C. Wong",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Ernie W. G. Loo",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "27",
+    "English Name": "DONG GUAN SOCIETIES OF HAWAII",
+    "Chinese Name": "夏威夷東莞同鄉會",
+    "Established": "2003",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Willies H. C. Ta",
+        "chinese_name": "謝錦輝"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Tin Shing Chao",
+        "chinese_name": "趙天成"
+      }
+    ]
+  },
+  {
+    "ID": "28",
+    "English Name": "DR. SUN YAT-SEN HAWAII FOUNDATION",
+    "Chinese Name": "夏威夷孫中山基金會",
+    "Established": "1997",
+    "Address": "45 N. King Street, Suite 600, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "contact@sunyatsenhawaii.org",
+    "Website": "sunyatsenhawaii.org",
+    "Leadership": [
+      {
+        "role": "Chairman of Board",
+        "name": "Warren Luke",
+        "chinese_name": "陸關棋"
+      },
+      {
+        "role": "President",
+        "name": "Steven Ai",
+        "chinese_name": "鍾光明"
+      },
+      {
+        "role": "Executive Vice President",
+        "name": "",
+        "chinese_name": "Ms."
+      }
+    ],
+    "lat": 21.311123,
+    "lng": -157.863349
+  },
+  {
+    "ID": "29",
+    "English Name": "DUCK DOO SOCIETY",
+    "Chinese Name": "得都會館",
+    "Established": "1906",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Michael K. W. Chun",
+        "chinese_name": "陳敬和"
+      },
+      {
+        "role": "Vice President",
+        "name": "Roberta C. L. Chun",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Kerry W. L. Mow",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Walter T. C. Chang",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "30",
+    "English Name": "GLOBAL FEDERATION OF CHINESE BUSINESS WOMEN (HAWAII CHAPTER) (GFCBW)",
+    "Chinese Name": "世界華人婦女工商企管協會",
+    "Established": "1996",
+    "Address": "1003 Bishop Street Ste.1700, Honolulu, HI 96813",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Amy Wang",
+        "chinese_name": "王美燕"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Angie Kim",
+        "chinese_name": "張台兒"
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Nikki Tsai",
+        "chinese_name": "蔡茵茵"
+      },
+      {
+        "role": "Secretary",
+        "name": "Shei-Yu Bunch",
+        "chinese_name": "紀雪玉"
+      }
+    ]
+  },
+  {
+    "ID": "31",
+    "English Name": "GOOK DOO ASSOCIATED SOCIETY",
+    "Chinese Name": "谷都同鄉會",
+    "Established": "2007",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Douglas D. L. Chong",
+        "chinese_name": "張帝倫"
+      },
+      {
+        "role": "Vice President",
+        "name": "Rodney K. F. Chong",
+        "chinese_name": "張錦輝"
+      },
+      {
+        "role": "Secretary",
+        "name": "Constance K. H. Chang Mark",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "32",
+    "English Name": "HAWAII CHINESE ARTS WUSHU CULTURAL CENTER OF HAWAII",
+    "Chinese Name": "夏威夷中國藝術武術文化中心",
+    "Established": "",
+    "Address": "40 S. Hotel Street, Honolulu HI 96813",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Irwin Jiang",
+        "chinese_name": "蒋欧文"
+      },
+      {
+        "role": "Vice President",
+        "name": "Beryl Ming Yu You",
+        "chinese_name": "尤铭⽟"
+      },
+      {
+        "role": "Director",
+        "name": "Edward Yi Jing",
+        "chinese_name": "蒋义"
+      },
+      {
+        "role": "Secretary",
+        "name": "Brenda Young-Matsui",
+        "chinese_name": "容寶鳳"
+      }
+    ],
+    "lat": 21.3102649,
+    "lng": -157.8613964
+  },
+  {
+    "ID": "33",
+    "English Name": "HAWAII CHINESE ASSOCIATION, INC.",
+    "Chinese Name": "夏威夷華人聯誼會",
+    "Established": "2001",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Billy Chou",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Hsia Min",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Monique Hwang",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Heidi Chen",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "34",
+    "English Name": "HAWAII CHINESE BUDDHIST SOCIETY (TAN WAH TEMPLE)",
+    "Chinese Name": "夏威夷中華佛教總會（檀華寺）",
+    "Established": "1955",
+    "Address": "1614 Nuuanu Avenue, Honolulu, HI 96817",
+    "Phone": "808-533-6758",
+    "Fax": "808-533-6758",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "1st Vice President",
+        "name": "Albert M. C. Chun",
+        "chinese_name": "陳夢慈"
+      },
+      {
+        "role": "Secretary",
+        "name": "Calvin C. Ching",
+        "chinese_name": "程卓"
+      }
+    ],
+    "lat": 21.3168747,
+    "lng": -157.8556446
+  },
+  {
+    "ID": "35",
+    "English Name": "HAWAII CHINESE CIVIC ASSOCIATION",
+    "Chinese Name": "華系公民會",
+    "Established": "1925",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Elvira Lo",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Tina Au",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Cy Feng",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "36",
+    "English Name": "HAWAII CHINESE CULTURE SERVICE CENTER",
+    "Chinese Name": "夏威夷中華文化服務中心",
+    "Established": "1982",
+    "Address": "P.O. Box 26082, Honolulu, HI 96825",
+    "Phone": "808-396-3955",
+    "Fax": "808-396-3955",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Jane Lin Tseng",
+        "chinese_name": "林秀琴"
+      },
+      {
+        "role": "Vice President",
+        "name": "Karl Chao",
+        "chinese_name": "趙光斗"
+      }
+    ]
+  },
+  {
+    "ID": "37",
+    "English Name": "HAWAII CHINESE DAILY",
+    "Chinese Name": "夏威夷中國日報",
+    "Established": "2014",
+    "Address": "521 Ala Moana Boulevard, Suite M415, Honolulu, HI 96813",
+    "Phone": "808-524-7888; 808-284-4289",
+    "Fax": "",
+    "Email": "anthony@hawaiichinesedaily.com",
+    "Website": "www.hawaiichinesedaily.net",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Anthony Chang",
+        "chinese_name": "張冬凝"
+      }
+    ]
+  },
+  {
+    "ID": "38",
+    "English Name": "HAWAII CHINESE HISTORY CENTER",
+    "Chinese Name": "夏威夷華人歷史硏究中心",
+    "Established": "1970",
+    "Address": "111 N. King Street #307, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "hchc71989@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Douglas D. L. Chong",
+        "chinese_name": "張帝倫"
+      },
+      {
+        "role": "Vice President",
+        "name": "Constance K. H. Chang Mark",
+        "chinese_name": "麥鄭貴開"
+      },
+      {
+        "role": "Secretary",
+        "name": "Randall K. H. Chun",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.3119147,
+    "lng": -157.863962
+  },
+  {
+    "ID": "39",
+    "English Name": "HAWAII CHINESE NEWS / TAMBAOTV8",
+    "Chinese Name": "檀報 檀網 檀視",
+    "Established": "2002",
+    "Address": "90 N. King Street, #202, Honolulu, HI 96817",
+    "Phone": "808-524-0142",
+    "Fax": "808-524-0142",
+    "Email": "tambao@me.com; tambaotv8@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Founder/Editor",
+        "name": "James Yen",
+        "chinese_name": "顏俊成"
+      },
+      {
+        "role": "Accountant/CFO",
+        "name": "Jackie Zhao",
+        "chinese_name": "趙秀玲"
+      }
+    ],
+    "lat": 21.3116483,
+    "lng": -157.8634461
+  },
+  {
+    "ID": "40",
+    "English Name": "(THE) HAWAII CHINESE WRITERS' ASSOCIATION",
+    "Chinese Name": "夏威夷華文作家協會",
+    "Established": "1997",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Honorary Chairperson",
+        "name": "Dr. Chin-Tang Lo",
+        "chinese_name": "羅錦堂"
+      },
+      {
+        "role": "Founder & Chairperson",
+        "name": "Sai-Lin Wong",
+        "chinese_name": "黃世連"
+      },
+      {
+        "role": "President",
+        "name": "Yip Fong",
+        "chinese_name": "葉芳"
+      },
+      {
+        "role": "Vice Presidents",
+        "name": "Lian Yun",
+        "chinese_name": "連芸"
+      },
+      {
+        "role": "Secretary",
+        "name": "Sun Xiao Yi",
+        "chinese_name": "孫曉奕"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Celia Man Na Ko",
+        "chinese_name": "高于晴"
+      }
+    ]
+  },
+  {
+    "ID": "41",
+    "English Name": "HAWAII FUJIAN BUSINESS ASSOCIATION",
+    "Chinese Name": "美國夏威夷福建總商會",
+    "Established": "",
+    "Address": "1133 River Street, Honolulu, HI 96817",
+    "Phone": "393-0609",
+    "Fax": "587-7937",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Peter Shi",
+        "chinese_name": "石國碧"
+      }
+    ],
+    "lat": 21.3136432,
+    "lng": -157.8630181
+  },
+  {
+    "ID": "42",
+    "English Name": "HAWAII FUJIAN FRIENDSHIP ASSOCIATION",
+    "Chinese Name": "美國夏威夷福建同鄉會",
+    "Established": "",
+    "Address": "1133 River Street, Honolulu, HI 96817",
+    "Phone": "808-391-6688",
+    "Fax": "808-587-7937",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Xiang Feng Cao",
+        "chinese_name": "曹象風"
+      }
+    ],
+    "lat": 21.3136432,
+    "lng": -157.8630181
+  },
+  {
+    "ID": "43",
+    "English Name": "HAWAII GUANGZHOU ASSOCIATION",
+    "Chinese Name": "夏威夷廣州同鄉會",
+    "Established": "2011",
+    "Address": "100 N. Beretania Street #163, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Gordon Ho",
+        "chinese_name": "何富翔"
+      },
+      {
+        "role": "1st VP",
+        "name": "Angel Ho",
+        "chinese_name": "鐘國君"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Richard Xie",
+        "chinese_name": "謝航"
+      },
+      {
+        "role": "3rd VP",
+        "name": "Ray Dong",
+        "chinese_name": "董則睿"
+      }
+    ],
+    "lat": 21.3142247,
+    "lng": -157.861533
+  },
+  {
+    "ID": "44",
+    "English Name": "HAWAII HERITAGE CENTER",
+    "Chinese Name": "",
+    "Established": "1980",
+    "Address": "1040 Smith Street in Historic Chinatown (P.O. Box 37520, Honolulu, HI 96837)",
+    "Phone": "808-521-2749",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Walter T.C. Chang",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Karen Motosue",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Sharon Lee Ota",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Thalia Choy",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "45",
+    "English Name": "HAWAII HUA SHENG CHORUS",
+    "Chinese Name": "夏威夷華聲合唱團",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Zeng Huan Li",
+        "chinese_name": "李增环"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Xin Liu",
+        "chinese_name": "刘欣"
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Dr. Anna Li",
+        "chinese_name": "李仲瑩"
+      }
+    ]
+  },
+  {
+    "ID": "46",
+    "English Name": "HAWAII MAINLAND CHINESE OVERSEAS ASSOCIATION",
+    "Chinese Name": "夏威夷中國大陸同胞聯誼會",
+    "Established": "1995",
+    "Address": "P.O. Box 11525, Honolulu, HI 96828",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Barbara Leung",
+        "chinese_name": "孙⾬"
+      },
+      {
+        "role": "Executive Vice President",
+        "name": "John Zhang",
+        "chinese_name": "張嘉海"
+      },
+      {
+        "role": "Vice President",
+        "name": "Tina Y. T. Wong Au",
+        "chinese_name": "歐黄艶婷"
+      },
+      {
+        "role": "Secretary",
+        "name": "Selena Qiu",
+        "chinese_name": "邱玥"
+      }
+    ]
+  },
+  {
+    "ID": "47",
+    "English Name": "HAWAII OVERSEAS FRIENDSHIP ASSOCIATION OF CANTONESE",
+    "Chinese Name": "夏威夷廣府人聯誼會",
+    "Established": "",
+    "Address": "100 N. Beretania Street #163, Honolulu, HI 96817",
+    "Phone": "808-524-6281",
+    "Fax": "808-524-6363",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Gordon Ho",
+        "chinese_name": "何富翔"
+      },
+      {
+        "role": "1st VP",
+        "name": "Peter W.Y. Ma",
+        "chinese_name": "馬彼得"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Qing Ren He",
+        "chinese_name": "何慶任"
+      },
+      {
+        "role": "3rd VP",
+        "name": "Jimmy Huang",
+        "chinese_name": "黄志毅"
+      },
+      {
+        "role": "4th VP",
+        "name": "Willies H. C. Ta",
+        "chinese_name": "謝錦輝"
+      }
+    ],
+    "lat": 21.3142247,
+    "lng": -157.861533
+  },
+  {
+    "ID": "48",
+    "English Name": "HAWAII RONG RONG CULTURAL CLUB",
+    "Chinese Name": "",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Founder",
+        "name": "Zengrong Wu",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "49",
+    "English Name": "HAWAII TEO CHEW ASSOCIATION",
+    "Chinese Name": "夏威夷潮州會館",
+    "Established": "1987",
+    "Address": "134 N. King Street, 2nd Flr., Honolulu, HI 96817",
+    "Phone": "808-531-4630",
+    "Fax": "808-531-4630",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Frank Law",
+        "chinese_name": "羅鎮成"
+      },
+      {
+        "role": "President-Elect (assumes March 2025)",
+        "name": "Andy Zheng",
+        "chinese_name": "鄭景達"
+      },
+      {
+        "role": "Vice President",
+        "name": "Anh My Ngo",
+        "chinese_name": "紀美英"
+      },
+      {
+        "role": "Controller",
+        "name": "Henry Cheung",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Yok Lai",
+        "chinese_name": "賴建育"
+      }
+    ]
+  },
+  {
+    "ID": "50",
+    "English Name": "HAWAII TEO CHEW CHAMBER OF COMMERCE",
+    "Chinese Name": "夏威夷潮州商會",
+    "Established": "2005",
+    "Address": "134 N. King Street, 2nd Flr, Honolulu, HI 96817",
+    "Phone": "808-531-4630",
+    "Fax": "808-531-4630",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Jeffrey Do",
+        "chinese_name": "杜錦輝"
+      },
+      {
+        "role": "Vice President (assumes March 2025)",
+        "name": "Terry Cheung",
+        "chinese_name": "張國運"
+      },
+      {
+        "role": "Secretary",
+        "name": "Yok Lai",
+        "chinese_name": "賴建育"
+      }
+    ]
+  },
+  {
+    "ID": "51",
+    "English Name": "HAWAII XING YUAN TANG",
+    "Chinese Name": "夏威夷行願堂",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Honorary Chairperson",
+        "name": "Donghua Temple, Wengyuan, Shaoguan, Guangdong, China",
+        "chinese_name": ""
+      },
+      {
+        "role": "President",
+        "name": "Tommy Ko",
+        "chinese_name": "高振堯"
+      },
+      {
+        "role": "Vice President",
+        "name": "Celia Ko",
+        "chinese_name": "高于晴"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Christine Tong",
+        "chinese_name": "湯鳳慈"
+      },
+      {
+        "role": "Secretary",
+        "name": "Helen Kwok",
+        "chinese_name": "郭杏娟"
+      },
+      {
+        "role": "Directors",
+        "name": "Margaret Chang",
+        "chinese_name": "鄭懷芬"
+      }
+    ]
+  },
+  {
+    "ID": "52",
+    "English Name": "HELEMANO PLANTATION, INC.",
+    "Chinese Name": "",
+    "Established": "",
+    "Address": "64-1510 Kamehameha Highway, Wahiawa, HI 96786",
+    "Phone": "808-622-3929",
+    "Fax": "808-621-5191",
+    "Email": "helemano808@hawaii.rr.com",
+    "Website": "www.ori-hawaii.com",
+    "Leadership": [
+      {
+        "role": "Owner",
+        "name": "Susanna F. Cheung",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "53",
+    "English Name": "HONG KONG BUSINESS ASSOCIATION OF HAWAII",
+    "Chinese Name": "夏威夷香港商會",
+    "Established": "1996",
+    "Address": "P.O. Box 1839, Honolulu, HI 96805-1839",
+    "Phone": "",
+    "Fax": "",
+    "Email": "hkbahinfo@yahoo.com",
+    "Website": "www.hkbah.us",
+    "Leadership": [
+      {
+        "role": "President/Director",
+        "name": "Barinna Poon",
+        "chinese_name": "潘沅芷"
+      },
+      {
+        "role": "Vice President/Director",
+        "name": "Allen Ng",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary/Director",
+        "name": "Juith M. Sykes",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer/Director",
+        "name": "Johnny Ng",
+        "chinese_name": ""
+      },
+      {
+        "role": "Director",
+        "name": "Cy Feng",
+        "chinese_name": "馮賽源"
+      }
+    ]
+  },
+  {
+    "ID": "54",
+    "English Name": "HONOLULU ASSOCIATION OF CHINESE CULTURAL EDUCATION (HACCE)",
+    "Chinese Name": "檀華文教協會",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "hcdaisypei@msn.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Contact",
+        "name": "Daisy Pei",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "55",
+    "English Name": "HONOLULU CHINATOWN LIONS CLUB",
+    "Chinese Name": "",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "www.e-clubhouse.org/sites/honoluluchinatownhi/",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Jennifer Kuang",
+        "chinese_name": "808-220-6007"
+      },
+      {
+        "role": "1st VP",
+        "name": "Nina Hung",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd VP",
+        "name": "James Logue",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Evan Tom",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Akimi Mitake",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "56",
+    "English Name": "HONOLULU CHINESE JAYCEES",
+    "Chinese Name": "檀香山中華青年商會",
+    "Established": "1953",
+    "Address": "P.O. Box 957, Honolulu, HI 96808",
+    "Phone": "",
+    "Fax": "",
+    "Email": "honoluluchinesejaycees@gmail.com",
+    "Website": "http://honoluluchinesejaycees.org",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Sarah Liu",
+        "chinese_name": "刘华倩"
+      },
+      {
+        "role": "Executive VP",
+        "name": "Stanley Yu",
+        "chinese_name": "余世麟"
+      },
+      {
+        "role": "Immediate Past President",
+        "name": "Colby Pacupac",
+        "chinese_name": "陳佳義"
+      },
+      {
+        "role": "Communication Liaison",
+        "name": "Kenneth Huang",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "57",
+    "English Name": "HOO CHO SHA SOCIETY",
+    "Chinese Name": "互助社",
+    "Established": "1922",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Douglas D. L. Chong",
+        "chinese_name": "張帝倫"
+      },
+      {
+        "role": "Vice President",
+        "name": "Wendy M. N. Leong Mow",
+        "chinese_name": "梁美如"
+      }
+    ]
+  },
+  {
+    "ID": "58",
+    "English Name": "KAMS' SOCIETY",
+    "Chinese Name": "甘氏同宗會",
+    "Established": "1929",
+    "Address": "P.O. Box 37834, Honolulu, HI 96837",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Wendy M. N. Leong Mow",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st VP",
+        "name": "Lynette Kam",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd VP",
+        "name": "Lisa L. M. Kam",
+        "chinese_name": ""
+      },
+      {
+        "role": "3rd VP",
+        "name": "Jocelyne Chun",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "59",
+    "English Name": "KAU TOM POST 11, AMERICAN LEGION DEPARTMENT OF HAWAII",
+    "Chinese Name": "高譚退伍軍人會",
+    "Established": "1928",
+    "Address": "P.O. Box 4571, Honolulu, HI 96812",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Commander",
+        "name": "Gordon W.H. Lee",
+        "chinese_name": "李威賢"
+      },
+      {
+        "role": "Vice Commander/Adjutant",
+        "name": "Mark De Virgilio",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "60",
+    "English Name": "KET ON SOCIETY",
+    "Chinese Name": "國安會館",
+    "Established": "1859",
+    "Address": "1129 Maunakea Street, Honolulu, HI 96817",
+    "Phone": "808-531-1192",
+    "Fax": "",
+    "Email": "ketonsocietyhi@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Wilfred Lam",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Cheves S. Terai",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd Vice President",
+        "name": "Michael Chun",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.312574,
+    "lng": -157.862196
+  },
+  {
+    "ID": "61",
+    "English Name": "KONG CHOW BENEVOLENT ASSOCIATION",
+    "Chinese Name": "岡州會館",
+    "Established": "1906",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Kent C. K. Chu",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Wilfred Lam",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Lorraine Akana",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "62",
+    "English Name": "KUAN YIN TEMPLE",
+    "Chinese Name": "觀音廟",
+    "Established": "1880",
+    "Address": "170 N. Vineyard Boulevard, Honolulu, HI 96817",
+    "Phone": "808-533-6361",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Marilyn Lee-Tom",
+        "chinese_name": "李美蓮"
+      }
+    ],
+    "lat": 21.3167317,
+    "lng": -157.859377
+  },
+  {
+    "ID": "63",
+    "English Name": "KUNG SHEONG DOO SOCIETY",
+    "Chinese Name": "恭常都會館",
+    "Established": "1930",
+    "Address": "P.O. Box 22370, Honolulu, HI 96823-2370",
+    "Phone": "",
+    "Fax": "",
+    "Email": "kungsheongdoo@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Liane Fu",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Christy Alwohi",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Darlene Robertson",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "64",
+    "English Name": "KUO MIN TANG SOCIETY",
+    "Chinese Name": "檀香山國民黨總支部",
+    "Established": "1894",
+    "Address": "100 N. Beretania Street, #215A, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Karl Chao",
+        "chinese_name": "趙光⽃"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Jamy Huang",
+        "chinese_name": "黃慶韶"
+      }
+    ]
+  },
+  {
+    "ID": "65",
+    "English Name": "KUTT HING SOCIETY (WAH KONG TEMPLE)",
+    "Chinese Name": "吉慶公所（華光廟）",
+    "Established": "1922",
+    "Address": "418 Elena Street, Honolulu, HI 96817",
+    "Phone": "808-531-6720",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Cody Hua",
+        "chinese_name": "許正定"
+      },
+      {
+        "role": "Vice President",
+        "name": "Sean Lam",
+        "chinese_name": "林顯堂"
+      },
+      {
+        "role": "English Secretary",
+        "name": "Arline Y. Chun",
+        "chinese_name": "陳楊蓮英"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Cheves Terai",
+        "chinese_name": "寺井世偉"
+      }
+    ],
+    "lat": 21.3239979,
+    "lng": -157.855263
+  },
+  {
+    "ID": "66",
+    "English Name": "KWANGTUNG COMMUNITY HONOLULU LIN YEE HUI",
+    "Chinese Name": "夏威夷廣東同鄉會",
+    "Established": "1975",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Ken Po Lock",
+        "chinese_name": "駱健波"
+      },
+      {
+        "role": "1st VP",
+        "name": "Peter W. Y. Ma",
+        "chinese_name": "馬彼得"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Dr. Lei Ahu Isa",
+        "chinese_name": ""
+      },
+      {
+        "role": "VP",
+        "name": "Constance K. H. Chang Mark",
+        "chinese_name": "麥鄭貴開"
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Cy S. Feng",
+        "chinese_name": "馮賽源"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Sharon Y.K. Chun",
+        "chinese_name": "秦玉金"
+      }
+    ]
+  },
+  {
+    "ID": "67",
+    "English Name": "LEONG DOO BENEVOLENT SOCIETY",
+    "Chinese Name": "良都會館",
+    "Established": "1922",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Kenneth Ngai Nau Lei",
+        "chinese_name": "雷乃鰲"
+      },
+      {
+        "role": "1st VP",
+        "name": "Joanne Lui",
+        "chinese_name": "雷錦鳳"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Katty Ma",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Cindy Loy",
+        "chinese_name": "雷余競新"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Peter Ma",
+        "chinese_name": "馬彼得"
+      }
+    ]
+  },
+  {
+    "ID": "68",
+    "English Name": "LIN YEE CHUNG ASSOCIATION",
+    "Chinese Name": "萬那聯義會",
+    "Established": "1889",
+    "Address": "3430 East Manoa Road, Honolulu, HI 96822 (Manoa Chinese Cemetery)",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Charles T.Y. Wong",
+        "chinese_name": "王祖耀"
+      },
+      {
+        "role": "Budget & Finance Chairman",
+        "name": "Weiland Tang",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Nancy Lam",
+        "chinese_name": ""
+      },
+      {
+        "role": "Superintendent",
+        "name": "Robert W. C. Wong",
+        "chinese_name": "王允中"
+      }
+    ]
+  },
+  {
+    "ID": "69",
+    "English Name": "LUM SAI HO TONG",
+    "Chinese Name": "林西河堂",
+    "Established": "1889",
+    "Address": "1315 River Street, Honolulu, HI 96817",
+    "Phone": "808-536-6590",
+    "Fax": "808-536-6590",
+    "Email": "lumsaihotong@yahoo.com",
+    "Website": "www.lumsaihotonghawaii.com",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Colleen Takenouchi",
+        "chinese_name": ""
+      },
+      {
+        "role": "VP",
+        "name": "Howard Chee On Lum",
+        "chinese_name": "林子安"
+      },
+      {
+        "role": "VP",
+        "name": "Anita Lim",
+        "chinese_name": "林陳慧怡"
+      },
+      {
+        "role": "VP",
+        "name": "Carol Lum Lau",
+        "chinese_name": "劉林桂燊"
+      },
+      {
+        "role": "Secretary",
+        "name": "Anita Barend",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.3153194,
+    "lng": -157.8600307
+  },
+  {
+    "ID": "70",
+    "English Name": "LUNG DOO BENEVOLENT SOCIETY",
+    "Chinese Name": "隆都從善堂",
+    "Established": "1891",
+    "Address": "159 N. Hotel Street, Honolulu, HI 96817",
+    "Phone": "808-537-2853",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Chung Yi Fong",
+        "chinese_name": "方宗儀"
+      },
+      {
+        "role": "Vice President",
+        "name": "Wei Qi Yang",
+        "chinese_name": "杨偉奇"
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Wei Hong Huang",
+        "chinese_name": "黃偉洪"
+      },
+      {
+        "role": "English Secretary",
+        "name": "Cy S. Feng",
+        "chinese_name": "馮賽源"
+      }
+    ],
+    "lat": 21.3131206,
+    "lng": -157.8635683
+  },
+  {
+    "ID": "71",
+    "English Name": "LUNG DOO KONG TOW SOCIETY",
+    "Chinese Name": "隆都港頭同鄉會",
+    "Established": "1943",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Carolyn Walsh",
+        "chinese_name": "伍潤好"
+      },
+      {
+        "role": "Vice President",
+        "name": "Wai Inn Hu",
+        "chinese_name": "胡蔚然"
+      },
+      {
+        "role": "Secretary",
+        "name": "Evelyn Y. W. Chong",
+        "chinese_name": "張胡綺雲"
+      }
+    ]
+  },
+  {
+    "ID": "72",
+    "English Name": "LUNG KONG KUNG SHAW",
+    "Chinese Name": "龍岡公所",
+    "Established": "1915",
+    "Address": "1428 Liliha Street, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Wayden Chu",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Jason Chong",
+        "chinese_name": "張振威"
+      },
+      {
+        "role": "English Secretary",
+        "name": "Kristen Lau",
+        "chinese_name": ""
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Dr. Lorrie Chong",
+        "chinese_name": "張鈺嫣"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Dr. Jared Chong",
+        "chinese_name": "張振良"
+      }
+    ],
+    "lat": 21.3203656,
+    "lng": -157.8616888
+  },
+  {
+    "ID": "73",
+    "English Name": "LUNG TOW WAN SOCIETY",
+    "Chinese Name": "龍頭環同鄉會",
+    "Established": "1926",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Harvey M. H. Wong",
+        "chinese_name": "黄萬喜"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Edna W. Wong",
+        "chinese_name": "黃惠玲"
+      }
+    ]
+  },
+  {
+    "ID": "74",
+    "English Name": "MISS CHINATOWN HAWAII FESTIVAL ORGANIZATION",
+    "Chinese Name": "",
+    "Established": "",
+    "Address": "P.O. Box 25184, Honolulu, HI 96825",
+    "Phone": "808-222-9550",
+    "Fax": "",
+    "Email": "misschinatown@hawaiiantel.net",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Director",
+        "name": "Stephanie Ching",
+        "chinese_name": ""
+      },
+      {
+        "role": "Assistant",
+        "name": "Ross Lee",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "75",
+    "English Name": "MO HOCK KE LOCK BO dba MUN LUN SCHOOL",
+    "Chinese Name": "明倫學校（務學俱樂部）",
+    "Established": "1908",
+    "Address": "1290 Maunakea Street, Honolulu, HI 96817",
+    "Phone": "808-521-5777",
+    "Fax": "",
+    "Email": "munlunschool@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Tina Tin",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st Vice President",
+        "name": "Cy Feng",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Baldwin Au",
+        "chinese_name": ""
+      },
+      {
+        "role": "Assistant Treasurer",
+        "name": "Kin Ming Ching",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.314405,
+    "lng": -157.8598969
+  },
+  {
+    "ID": "76",
+    "English Name": "NORTH AMERICA TAIWANESE WOMEN'S ASSOCIATION HAWAII CHAPTER",
+    "Chinese Name": "北美台灣婦女會夏威夷分會",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Chairwoman",
+        "name": "Josephine Wu Vuylsteke",
+        "chinese_name": "吳惠芳"
+      }
+    ]
+  },
+  {
+    "ID": "77",
+    "English Name": "OO SYAK GEE LU SOCIETY",
+    "Chinese Name": "烏石寄盧",
+    "Established": "1897",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "osgl.info@gmail.com",
+    "Website": "@oosyakgeelu (Instagram)",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Debbie R. L. Chun",
+        "chinese_name": "陳慧蓮"
+      },
+      {
+        "role": "1st VP",
+        "name": "Kendrick S. Y. Chang",
+        "chinese_name": "鄭世友"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Bradley J. H. Chang",
+        "chinese_name": ""
+      },
+      {
+        "role": "English Secretary",
+        "name": "Jamie M. Y. Chang",
+        "chinese_name": "鄭美妍"
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Alicia Chang-Sakamoto",
+        "chinese_name": "鄭素萍"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Daryl K. H. Hu",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "78",
+    "English Name": "ORGANIZATION OF CHINESE AMERICAN WOMEN (OCAW) HAWAII CHAPTER",
+    "Chinese Name": "",
+    "Established": "1989",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Sharlene Y. Chun",
+        "chinese_name": "陳余秀珍"
+      },
+      {
+        "role": "Vice President",
+        "name": "Kelly Tan Peterson",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Kimberly Chun Hoi",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Leonora Loo",
+        "chinese_name": ""
+      },
+      {
+        "role": "Auditor",
+        "name": "Cynthia M. L. Ching",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "79",
+    "English Name": "ORGANIZATION OF CHINESE AMERICANS (HAWAII CHAPTER) INC.",
+    "Chinese Name": "美華協會夏威夷分會",
+    "Established": "1973",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Gifford K. F. Chang",
+        "chinese_name": "鄭觀科"
+      },
+      {
+        "role": "VP",
+        "name": "Leonard J.K.H. Kam",
+        "chinese_name": "甘錦雄"
+      },
+      {
+        "role": "VP",
+        "name": "Ave Kwock",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Uyen T. Vong",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Dexter Sonomura",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "80",
+    "English Name": "PALOLO CHINESE HOME",
+    "Chinese Name": "檀香山華人養老院",
+    "Established": "1917",
+    "Address": "2459 10th Avenue, Honolulu, HI 96816-3050",
+    "Phone": "808-748-4904",
+    "Fax": "808-748-7997",
+    "Email": "info@palolohome.org",
+    "Website": "www.palolohome.org",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Elvira Lo",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st VP",
+        "name": "Sandra Souza",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Patricia L. Blanchette M.D.",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Dick Oshima CPA",
+        "chinese_name": ""
+      },
+      {
+        "role": "CEO",
+        "name": "Darlene Nakayama",
+        "chinese_name": ""
+      },
+      {
+        "role": "Executive Assistants",
+        "name": "Sandy Lee and Carlynn Yoshina",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.303558,
+    "lng": -157.7879182
+  },
+  {
+    "ID": "81",
+    "English Name": "PALOLO CHINESE HOME WOMEN'S AUXILIARY",
+    "Chinese Name": "巴羅羅老人院婦女部",
+    "Established": "1964",
+    "Address": "2459 10th Avenue, Honolulu, HI 96816",
+    "Phone": "808-748-4902",
+    "Fax": "808-748-4901",
+    "Email": "info@palolohome.org",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Gladys K. Lee",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st VP",
+        "name": "Barbara Heu",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd VP",
+        "name": "Elaine Lee",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Alicia Sakamoto",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.303558,
+    "lng": -157.7879182
+  },
+  {
+    "ID": "82",
+    "English Name": "(THE) PHOENIX DANCE CHAMBER",
+    "Chinese Name": "鳳舞宮",
+    "Established": "1989",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Ivy Hsu",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Karen Chan",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Anna Chung",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Karen Lau Matsunaga",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "83",
+    "English Name": "QING YUAN SOCIETY OF HAWAII USA",
+    "Chinese Name": "美國夏威夷清遠聯誼會",
+    "Established": "2012",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Jimmy Huang",
+        "chinese_name": "黃志毅"
+      },
+      {
+        "role": "1st VP",
+        "name": "Zheng Chao Liang",
+        "chinese_name": "梁正超"
+      },
+      {
+        "role": "2nd VP and Secretary",
+        "name": "Janet Huang",
+        "chinese_name": "黃秋瑩"
+      }
+    ]
+  },
+  {
+    "ID": "84",
+    "English Name": "SEE DAI DOO SOCIETY",
+    "Chinese Name": "四大都會館",
+    "Established": "1905",
+    "Address": "1300 Pali Highway, Honolulu, HI 96817",
+    "Phone": "808-533-4756",
+    "Fax": "808-533-4755",
+    "Email": "seedaidoosociety@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Kin Ming Ching",
+        "chinese_name": "程建明"
+      },
+      {
+        "role": "Vice President",
+        "name": "Lori S. C. Kam",
+        "chinese_name": "甘程秀娟"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Cynthia M. L. Ching",
+        "chinese_name": ""
+      },
+      {
+        "role": "Assistant Treasurer",
+        "name": "Coleen W. J. L. Lee",
+        "chinese_name": ""
+      },
+      {
+        "role": "English Secretary",
+        "name": "Lynn S. M. Ching Imperial",
+        "chinese_name": ""
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Juanita Ching Liu",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.3123944,
+    "lng": -157.857804
+  },
+  {
+    "ID": "85",
+    "English Name": "SEE YUP BENEVOLENT SOCIETY",
+    "Chinese Name": "四邑會館",
+    "Established": "1897",
+    "Address": "1153 Maunakea Street, Honolulu, HI 96817",
+    "Phone": "808-537-4242",
+    "Fax": "808-537-4242",
+    "Email": "seeyupyeeyeetong@yahoo.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Peggy Fung Ming Yu Luu",
+        "chinese_name": "劉余鳳鳴"
+      },
+      {
+        "role": "Vice President",
+        "name": "Joseph Lam",
+        "chinese_name": "林北江"
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Lucy Wu",
+        "chinese_name": "胡蕭金娥"
+      },
+      {
+        "role": "English Secretary",
+        "name": "Tina Au",
+        "chinese_name": "歐黄艶婷"
+      }
+    ],
+    "lat": 21.3128551,
+    "lng": -157.8617321
+  },
+  {
+    "ID": "86",
+    "English Name": "SHANGHAI CLUB",
+    "Chinese Name": "上海俱樂部",
+    "Established": "",
+    "Address": "40 S. Hotel Street, Honolulu, HI 96813",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Founder",
+        "name": "Irwin Jiang",
+        "chinese_name": "蒋欧文"
+      },
+      {
+        "role": "1st VP",
+        "name": "Beryl Ming Yu You",
+        "chinese_name": "尤铭⽟"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Lucy Shen",
+        "chinese_name": "刘谦"
+      },
+      {
+        "role": "Director",
+        "name": "Sandy Liang",
+        "chinese_name": "梁惠影"
+      },
+      {
+        "role": "Secretary",
+        "name": "Moulden Tan",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.3102649,
+    "lng": -157.8613964
+  },
+  {
+    "ID": "87",
+    "English Name": "SINGAPORE CLUB",
+    "Chinese Name": "",
+    "Established": "2015",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President and Secretary",
+        "name": "Chu Lan Shubert-Kwock",
+        "chinese_name": "郭秋蘭"
+      },
+      {
+        "role": "Vice President and Treasurer",
+        "name": "Philip Tan",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "88",
+    "English Name": "SUN MING TING BENEVOLENT SOCIETY",
+    "Chinese Name": "申明亭同鄉會",
+    "Established": "1946",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Haven Young Rafto",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Jarrett Pang",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Sandra Young",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "89",
+    "English Name": "SUN YAT-SEN FOUNDATION FOR PEACE & EDUCATION",
+    "Chinese Name": "孫逸仙和平教育基金會",
+    "Established": "",
+    "Address": "1330 Ala Moana Blvd #1105, Honolulu, HI 96814",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Dr. Lily S.F. Sun",
+        "chinese_name": "孫穗芳"
+      },
+      {
+        "role": "1st VP",
+        "name": "Alexander Wong",
+        "chinese_name": "王祖榮"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Charles T.Y. Wong",
+        "chinese_name": "王祖耀"
+      },
+      {
+        "role": "3rd VP",
+        "name": "Peony Luk",
+        "chinese_name": "陸枝枝"
+      }
+    ],
+    "lat": 21.291955,
+    "lng": -157.8490374
+  },
+  {
+    "ID": "90",
+    "English Name": "TAIWAN HAKKA ASSOCIATION OF HAWAII",
+    "Chinese Name": "夏威夷台灣客家協會",
+    "Established": "2016",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Mei Li Leff",
+        "chinese_name": "林秀琴"
+      },
+      {
+        "role": "Vice President",
+        "name": "Monique Hwang",
+        "chinese_name": "黃孟珠"
+      },
+      {
+        "role": "Secretary",
+        "name": "Betty Kwong",
+        "chinese_name": "鄺秀瓊"
+      }
+    ]
+  },
+  {
+    "ID": "91",
+    "English Name": "TOM ASSOCIATION",
+    "Chinese Name": "譚氏宗親會",
+    "Established": "1960",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Cheryl Tom Parker",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Bonnie Tam-Hoy",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Grifford L. Tom",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Stephen Tom",
+        "chinese_name": ""
+      },
+      {
+        "role": "Auditor",
+        "name": "Markus Taum",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "92",
+    "English Name": "(THE) TRIPLE \"C\" CLUB",
+    "Chinese Name": "三思會",
+    "Established": "1920",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Dr. Clifford Lau",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Robin Leong",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Vernon Ching",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Alvin Wong",
+        "chinese_name": ""
+      },
+      {
+        "role": "Auditor",
+        "name": "Willis Yap",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "93",
+    "English Name": "TSUNG TSIN ASSOCIATION",
+    "Chinese Name": "崇正會",
+    "Established": "1918",
+    "Address": "1159 Maunakea Street, Honolulu, HI 96817",
+    "Phone": "808-533-3998",
+    "Fax": "",
+    "Email": "tsungtsinhnl@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Michael K. H. Wong",
+        "chinese_name": ""
+      },
+      {
+        "role": "President-Elect",
+        "name": "Michael W. K. Tsang",
+        "chinese_name": ""
+      },
+      {
+        "role": "English Secretary",
+        "name": "Rebecca M. L. Ho",
+        "chinese_name": ""
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "Jade Q. L. Penn",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Keith W. F. Lim",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.3128949,
+    "lng": -157.8616658
+  },
+  {
+    "ID": "94",
+    "English Name": "UNITED CHINESE COMMUNITY COALITION",
+    "Chinese Name": "聯合華人權益促進會",
+    "Established": "2004",
+    "Address": "725 Kapiolani Blvd., #1501, Honolulu, HI 96813",
+    "Phone": "808-206-6845",
+    "Fax": "",
+    "Email": "bbb1328@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "You Soukaseum",
+        "chinese_name": "許學如"
+      },
+      {
+        "role": "Vice President",
+        "name": "Ben K. Tran",
+        "chinese_name": "陳啟邦"
+      }
+    ],
+    "lat": 21.3008912,
+    "lng": -157.8550537
+  },
+  {
+    "ID": "95",
+    "English Name": "US - CHINA PEOPLES FRIENDSHIP ASSOCIATION",
+    "Chinese Name": "美中人民友好協會",
+    "Established": "1974",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Western Region President",
+        "name": "Frances H. Goo",
+        "chinese_name": "古侯定錦"
+      },
+      {
+        "role": "Western Region Treasurer",
+        "name": "Walter T. C. Chang",
+        "chinese_name": "鄭天照"
+      },
+      {
+        "role": "Hawaii Sub-Region President",
+        "name": "Vernon W. C. Ching",
+        "chinese_name": "陳惠昌"
+      },
+      {
+        "role": "Hawaii Sub-Region Treasurer",
+        "name": "Walter T. C. Chang",
+        "chinese_name": ""
+      },
+      {
+        "role": "Honolulu Chapter President",
+        "name": "Vernon W. C. Ching",
+        "chinese_name": ""
+      },
+      {
+        "role": "Honolulu Chapter 1st VP",
+        "name": "Frances H. Goo",
+        "chinese_name": ""
+      },
+      {
+        "role": "Honolulu Chapter 2nd VP",
+        "name": "Randall Chang",
+        "chinese_name": "鄭文貴"
+      },
+      {
+        "role": "Honolulu Chapter Recording Secretary",
+        "name": "Brenda Young-Matsui",
+        "chinese_name": "容寶鳳"
+      },
+      {
+        "role": "Oahu Chapter President",
+        "name": "Chu Lan Shubert-Kwock",
+        "chinese_name": "郭秋蘭"
+      },
+      {
+        "role": "Oahu Chapter VP",
+        "name": "Stanford B.C. Yuen",
+        "chinese_name": "阮保焯"
+      },
+      {
+        "role": "Oahu Chapter Secretary",
+        "name": "Barbara Heu",
+        "chinese_name": ""
+      },
+      {
+        "role": "Oahu Chapter Treasurer",
+        "name": "Elaine Lee",
+        "chinese_name": ""
+      },
+      {
+        "role": "Kauai Chapter President",
+        "name": "Phyllis Tokita",
+        "chinese_name": ""
+      },
+      {
+        "role": "National Director",
+        "name": "Cyndy Ning",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "96",
+    "English Name": "U.S. HAWAII FUJIAN UNITED ASSOCIATION",
+    "Chinese Name": "美國夏威夷福建聨合總會主席",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Chuan Tai He",
+        "chinese_name": "何傳太"
+      }
+    ]
+  },
+  {
+    "ID": "97",
+    "English Name": "WO HING SOCIETY",
+    "Chinese Name": "和興會館",
+    "Established": "1905",
+    "Address": "858 Front Street, Lahaina, Maui, HI 96761 & 2151 W Vineyard Street, Wailuku HI 96793 (Mailing: PO Box 1338, Wailuku HI 96793)",
+    "Phone": "",
+    "Fax": "",
+    "Email": "wohingsociety@gmail.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Carolyn W.K. Kam",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Robert Santos",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Jaclyn Santos",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Pam Silva",
+        "chinese_name": ""
+      },
+      {
+        "role": "Cultural Director",
+        "name": "Dr. Busaba Yip Douglas",
+        "chinese_name": "葉桂珠"
+      }
+    ]
+  },
+  {
+    "ID": "98",
+    "English Name": "WO LOK MUSIC CLUB",
+    "Chinese Name": "和樂音樂社",
+    "Established": "1972",
+    "Address": "42 N. King Street, Honolulu, HI 96817",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Mabel Lau",
+        "chinese_name": "劉袁美英"
+      },
+      {
+        "role": "Vice President",
+        "name": "Grace Lam",
+        "chinese_name": "劉立環"
+      },
+      {
+        "role": "Secretary",
+        "name": "Veronica Kwok",
+        "chinese_name": "郭慧瑜"
+      }
+    ],
+    "lat": 21.3110041,
+    "lng": -157.8630817
+  },
+  {
+    "ID": "99",
+    "English Name": "WONG KONG HAR TONG OF HAWAII",
+    "Chinese Name": "夏威夷黃江夏堂",
+    "Established": "1902",
+    "Address": "P.O. Box 37249, Honolulu, HI 96837",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Steven H. T. Wong",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Kimberly Wong Balisacan",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Amanda M. L. Wong",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "100",
+    "English Name": "WONG LEONG DOO BENEVOLENT SOCIETY",
+    "Chinese Name": "黃梁都會館",
+    "Established": "1902",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Lena C. K. Higa",
+        "chinese_name": ""
+      },
+      {
+        "role": "1st VP",
+        "name": "Lani Kwong",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd VP",
+        "name": "Allen M. Wong",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Jenny Chow",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "101",
+    "English Name": "WONG MUNG DUCK TONG",
+    "Chinese Name": "王明德堂",
+    "Established": "1997",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Vice President",
+        "name": "Richard Wong Aloiau",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Harold W. Aloiau",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "102",
+    "English Name": "WORLD ASSOCIATION OF DONG GUAN SOCIETIES – HAWAII CHAPTER USA",
+    "Chinese Name": "世界東莞社團聯合總會夏威夷分會",
+    "Established": "",
+    "Address": "1425 Liliha Street, #2-5, Honolulu, HI 96817",
+    "Phone": "808-226-6488",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Kin Chun Lau",
+        "chinese_name": "刘建津"
+      },
+      {
+        "role": "Vice President",
+        "name": "Yan Ling Hu",
+        "chinese_name": "胡艳玲"
+      },
+      {
+        "role": "Secretary General",
+        "name": "Shane Yang",
+        "chinese_name": "杨文生"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Lani Liu",
+        "chinese_name": "刘紹紅"
+      }
+    ]
+  },
+  {
+    "ID": "103",
+    "English Name": "WORLD FEDERATION OF CHINESE ORGANIZATIONS FROM VIETNAM CAMBODIA AND LAOS",
+    "Chinese Name": "世界越棉(東)寮(老)華人團體聯合總會",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Dan On",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "104",
+    "English Name": "WORLD JOURNAL (Hawaii Branch)",
+    "Chinese Name": "世界日報",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "www.worldjournal.com",
+    "Leadership": [
+      {
+        "role": "Agent",
+        "name": "Karl Kao",
+        "chinese_name": "高振華"
+      },
+      {
+        "role": "Agent",
+        "name": "Helen Tsou",
+        "chinese_name": "鄒俊俠"
+      }
+    ]
+  },
+  {
+    "ID": "105",
+    "English Name": "WORLD TAIWAN BENEVOLENT ASSOCIATION (HAWAII CHAPTER)",
+    "Chinese Name": "世界台灣同鄉聯誼總會",
+    "Established": "2016",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Sherry C. Lau",
+        "chinese_name": "張佳蕊"
+      },
+      {
+        "role": "1st VP",
+        "name": "Carl Chu",
+        "chinese_name": ""
+      },
+      {
+        "role": "2nd VP",
+        "name": "Beverly Lau",
+        "chinese_name": "劉彦均"
+      }
+    ]
+  },
+  {
+    "ID": "106",
+    "English Name": "WU YUP OVERSEAS ASSOCIATION",
+    "Chinese Name": "五邑海外聯誼會",
+    "Established": "2004",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Qing Ren He",
+        "chinese_name": "何慶任"
+      },
+      {
+        "role": "1st VP",
+        "name": "Tin Shing Chao M.Ph.",
+        "chinese_name": "趙天成"
+      },
+      {
+        "role": "2nd VP",
+        "name": "Judy Moy",
+        "chinese_name": "梅茱迪"
+      },
+      {
+        "role": "Secretary",
+        "name": "Run Tian Zhong",
+        "chinese_name": "鍾潤添"
+      }
+    ]
+  },
+  {
+    "ID": "107",
+    "English Name": "YEE YEE TONG",
+    "Chinese Name": "以義堂",
+    "Established": "1921",
+    "Address": "1153 Maunakea Street, Honolulu, HI 96817",
+    "Phone": "808-537-4242",
+    "Fax": "808-537-4242",
+    "Email": "seeyupyeeyeetong@yahoo.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Ken Po Lock",
+        "chinese_name": "駱健波"
+      },
+      {
+        "role": "Vice President",
+        "name": "Tin Shing Chao M.Ph.",
+        "chinese_name": "趙天成"
+      },
+      {
+        "role": "English Secretary",
+        "name": "Danny Pang",
+        "chinese_name": "彭天志"
+      },
+      {
+        "role": "Chinese Secretary",
+        "name": "",
+        "chinese_name": "Mr."
+      }
+    ],
+    "lat": 21.3128551,
+    "lng": -157.8617321
+  },
+  {
+    "ID": "108",
+    "English Name": "YIM'S SOCIETY",
+    "Chinese Name": "嚴氏宗親會",
+    "Established": "",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Clifton Yim",
+        "chinese_name": "嚴觀佑"
+      },
+      {
+        "role": "1st Vice President",
+        "name": "James Yim",
+        "chinese_name": "嚴觀瞻"
+      }
+    ]
+  },
+  {
+    "ID": "109",
+    "English Name": "CHINESE LION DANCE ASSOCIATION",
+    "Chinese Name": "",
+    "Established": "1988",
+    "Address": "3012 Waialae Avenue, Honolulu, HI 96816",
+    "Phone": "808-531-2287",
+    "Fax": "",
+    "Email": "mail@chineseliondanceassociation.com",
+    "Website": "http://www.chineseliondanceassociation.com",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Raymond Ng",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Jordan Lam",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Winnifred Hui",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Sandra Shim",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer",
+        "name": "Raymond Ng",
+        "chinese_name": ""
+      }
+    ],
+    "lat": 21.2891917,
+    "lng": -157.8123591
+  },
+  {
+    "ID": "110",
+    "English Name": "CHINESE PHYSICAL CULTURE ASSOCIATION",
+    "Chinese Name": "華人精武體育會",
+    "Established": "1933",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Contact",
+        "name": "Laura Chun",
+        "chinese_name": "陳夢慈"
+      }
+    ]
+  },
+  {
+    "ID": "111",
+    "English Name": "CHUK KAI TAI CHI CLUB",
+    "Chinese Name": "竹溪太極社",
+    "Established": "1983",
+    "Address": "P.O. Box 17161, Honolulu, HI 96819",
+    "Phone": "808-389-3618",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Master (Sifu)",
+        "name": "Tommy Ko",
+        "chinese_name": "高振堯"
+      },
+      {
+        "role": "President",
+        "name": "Margaret Chang",
+        "chinese_name": "鄭懷芬"
+      },
+      {
+        "role": "Vice President",
+        "name": "Christine Tong",
+        "chinese_name": "湯鳳池"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Dana Cheng",
+        "chinese_name": "鄭桂池"
+      },
+      {
+        "role": "Secretary",
+        "name": "Candace Lau",
+        "chinese_name": "劉馬鳳雯"
+      },
+      {
+        "role": "Director",
+        "name": "Helen Kwok",
+        "chinese_name": "郭杏娟"
+      },
+      {
+        "role": "Director",
+        "name": "Geraldine Maeda",
+        "chinese_name": "真栄田みち"
+      }
+    ]
+  },
+  {
+    "ID": "112",
+    "English Name": "GEE YUNG CHINESE MARTIAL ARTS, DRAGON & LION DANCE SPORTS ASSOCIATION",
+    "Chinese Name": "致勇國術研究會少林佛家",
+    "Established": "1941",
+    "Address": "1024 Smith Street, Honolulu, HI 96817 (Mailing: P.O. Box 10838, Honolulu, HI 96816)",
+    "Phone": "808-599-4690",
+    "Fax": "808-599-4690",
+    "Email": "",
+    "Website": "http://www.geeyung.com",
+    "Leadership": [
+      {
+        "role": "President and Chief Instructor",
+        "name": "Harlan D.T. Lee",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "113",
+    "English Name": "KUO MIN TANG PHYSICAL CULTURE ASSOCIATION – HSING CHUNG DRAGON AND LION DANCE TEAM",
+    "Chinese Name": "國民黨國術團-興中龍獅隊",
+    "Established": "1959",
+    "Address": "100 N. Beretania Street #215A, Honolulu, HI 96817",
+    "Phone": "525-7778",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Russell J. K. Young",
+        "chinese_name": "楊振光"
+      },
+      {
+        "role": "Vice President",
+        "name": "Arline Y. Chun",
+        "chinese_name": "陳楊蓮英"
+      },
+      {
+        "role": "Secretary",
+        "name": "Kenton K. W. Wong",
+        "chinese_name": "黃錦威"
+      },
+      {
+        "role": "Treasurer",
+        "name": "Cody Hua",
+        "chinese_name": "許正定"
+      },
+      {
+        "role": "Chairman Emeritus",
+        "name": "Rev. Duane J.L. Pang",
+        "chinese_name": "彭澤聯"
+      },
+      {
+        "role": "Practice",
+        "name": "Fridays 7:30pm-10pm",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "114",
+    "English Name": "LUK TUNG KUEN WORLDWIDE ASSOCIATION OF HAWAII",
+    "Chinese Name": "夏威夷六通拳總會",
+    "Established": "1994",
+    "Address": "",
+    "Phone": "",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "President",
+        "name": "Laurie Chun",
+        "chinese_name": "陳金玲"
+      },
+      {
+        "role": "Vice President",
+        "name": "Peter W. Y. Ma",
+        "chinese_name": "馬彼得"
+      }
+    ]
+  },
+  {
+    "ID": "115",
+    "English Name": "LUNG KONG PHYSICAL CULTURE CLUB",
+    "Chinese Name": "龍岡青年團",
+    "Established": "1958",
+    "Address": "c/o 555-A Hanana Place, Honolulu, HI 96817",
+    "Phone": "808-538-3434",
+    "Fax": "",
+    "Email": "",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Chairman",
+        "name": "Wendall C.K. Chu (1521 Alexander Street #1202 Honolulu HI 96822",
+        "chinese_name": ""
+      },
+      {
+        "role": "Mobile",
+        "name": "808-398-5585)",
+        "chinese_name": ""
+      },
+      {
+        "role": "Co-Chairman",
+        "name": "Ernest W.G. Loo",
+        "chinese_name": "盧煌錦"
+      },
+      {
+        "role": "Secretary",
+        "name": "Mavis C. Chong",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "116",
+    "English Name": "SING YUNG DRAGON AND LION DANCE ASSOCIATION",
+    "Chinese Name": "昇勇龍獅體育會",
+    "Established": "2014",
+    "Address": "P.O. Box 4333, Honolulu, HI 96812",
+    "Phone": "",
+    "Fax": "",
+    "Email": "singyunghawaii@gmail.com",
+    "Website": "http://www.singyunghawaii.com",
+    "Leadership": [
+      {
+        "role": "President and Chief Instructor",
+        "name": "Kevin K. L. Lau",
+        "chinese_name": ""
+      },
+      {
+        "role": "Vice President",
+        "name": "Christopher T. Jose",
+        "chinese_name": ""
+      },
+      {
+        "role": "Secretary",
+        "name": "Brian Dai",
+        "chinese_name": ""
+      },
+      {
+        "role": "Treasurer and Instructor",
+        "name": "Jia Hong Chen",
+        "chinese_name": ""
+      }
+    ]
+  },
+  {
+    "ID": "117",
+    "English Name": "YEUNG DAK DRAGON & LION DANCE ASSOCIATION",
+    "Chinese Name": "揚德體育會龍獅團",
+    "Established": "2006",
+    "Address": "42 N. King Street, Honolulu, HI 96817",
+    "Phone": "808-398-3764",
+    "Fax": "",
+    "Email": "admin@yeungdak.com",
+    "Website": "",
+    "Leadership": [
+      {
+        "role": "Chairman Emeritus/Grand Master",
+        "name": "The late Hoy-Shing Siu",
+        "chinese_name": "蕭海成"
+      },
+      {
+        "role": "Chairman and Chief Instructor",
+        "name": "Shane A. Maihui",
+        "chinese_name": "許尊義"
+      },
+      {
+        "role": "Phone",
+        "name": "808-387-8944",
+        "chinese_name": ""
+      },
+      {
+        "role": "President and Assistant Chief Instructor",
+        "name": "Triste R.D.N. Yee",
+        "chinese_name": "余冬月"
+      },
+      {
+        "role": "Vice President and Assistant Instructor",
+        "name": "Vernon Heu",
+        "chinese_name": "邱金釆"
+      }
+    ],
+    "lat": 21.3110041,
+    "lng": -157.8630817
   }
 ]
