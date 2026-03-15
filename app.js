@@ -241,21 +241,30 @@ function renderOrganizations(data) {
 }
 
 // Live search
-searchInput.addEventListener("input", () => {
-
-  clearBtn.style.display = searchInput.value ? "block" : "none";
-
-  applyFilters();
-
-});
-
+searchInput.addEventListener("input", applyFilters);
 nameSort.addEventListener("change", applyFilters);
 yearSort.addEventListener("change", applyFilters);
 
 
 // Clear button
 clearBtn.addEventListener("click", () => {
+
   searchInput.value = "";
   clearBtn.style.display = "none";
+
   applyFilters();
+
+  searchInput.focus();
+
+});
+
+searchInput.addEventListener("input", () => {
+
+  const value = searchInput.value.trim();
+
+  // Show or hide the clear button
+  clearBtn.style.display = value.length > 0 ? "block" : "none";
+
+  applyFilters();
+
 });

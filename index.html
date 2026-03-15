@@ -12,28 +12,51 @@
 </head>
 
 <body>
+
+  <h1>Chinese Organizations in Honolulu</h1>
+
+  <!-- TIMELINE AT TOP -->
+  <section id="timeline">
+
+    <h2>Research Timeline</h2>
+
+    <div class="timeline-wrapper">
+
+      <input type="range" id="yearSlider" min="1850" max="2025" step="1" value="2025">
+
+      <div id="yearDisplay">
+        Showing organizations up to: 2025
+      </div>
+
+    </div>
+
+  </section>
+
+  <div id="resultsCount"></div>
+
+  <!-- SEARCH + SORT -->
   <div class="controls">
 
     <div class="search-wrapper">
-      <input type="text" id="searchInput" placeholder="Search..." class="search-bar" />
-      <button id="clearBtn" class="clear-btn">&times;</button>
+      <input id="searchInput" type="text" placeholder="Search organizations">
+      <button id="clearBtn" aria-label="Clear search">&times;</button>
     </div>
 
     <select id="nameSort">
-      <option value="">Sort Name</option>
-      <option value="az">A → Z</option>
-      <option value="za">Z → A</option>
+      <option value="az">Name A–Z</option>
+      <option value="za">Name Z–A</option>
     </select>
 
     <select id="yearSort">
-      <option value="">Sort Year</option>
+      <option value="">Year</option>
       <option value="old">Oldest → Newest</option>
       <option value="new">Newest → Oldest</option>
     </select>
 
   </div>
-  <p id="resultsCount" class="results-count"></p>
 
+
+  <!-- DIRECTORY + MAP -->
   <div class="layout">
 
     <div id="directory"></div>
@@ -42,31 +65,11 @@
 
   </div>
 
-  <section id="timeline">
-
-<h2>Research Timeline</h2>
-
-<div class="timeline-wrapper">
-
-<input 
-type="range"
-id="yearSlider"
-min="1850"
-max="2025"
-step="1"
-value="2025"
->
-
-<div id="yearDisplay">Showing organizations up to: 2025</div>
-
-</div>
-
-</section>
-
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="map.js"></script>
-  <script src="app.js"></script>
-  <script src="timeline.js"></script>
+  <script src="map.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="timeline.js" defer></script>
+
 </body>
 
 </html>

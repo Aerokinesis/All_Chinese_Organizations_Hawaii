@@ -1,26 +1,32 @@
-const slider = document.getElementById("yearSlider");
-const yearDisplay = document.getElementById("yearDisplay");
+document.addEventListener("DOMContentLoaded", () => {
 
-slider.addEventListener("input", () => {
+  const slider = document.getElementById("yearSlider");
+  const yearDisplay = document.getElementById("yearDisplay");
+
+  if (!slider) return;
+
+  slider.addEventListener("input", () => {
 
     const selectedYear = parseInt(slider.value);
 
     yearDisplay.textContent =
-        `Showing organizations up to: ${selectedYear}`;
+      `Showing organizations up to: ${selectedYear}`;
 
     const filtered = organizations.filter(org => {
 
-        const year = parseInt(
-            (org["Established"] || "").match(/\d{4}/)?.[0]
-        );
+      const year = parseInt(
+        (org["Established"] || "").match(/\d{4}/)?.[0]
+      );
 
-        if (!year) return false;
+      if (!year) return false;
 
-        return year <= selectedYear;
+      return year <= selectedYear;
 
     });
 
     renderOrganizations(filtered);
     addMarkers(filtered);
+
+  });
 
 });
