@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>List of Chinese Organizations</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/styles/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
@@ -58,32 +58,9 @@
   <div id="map"></div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="map.js" defer></script>
-  <script src="app.js" defer></script>
-  <script src="timeline.js" defer></script>
-
-  <script>
-    // Keyboard shortcut: press "/" to focus search
-    document.addEventListener("keydown", (e) => {
-      const tag = document.activeElement.tagName;
-      if (e.key === "/" && tag !== "INPUT" && tag !== "TEXTAREA" && tag !== "SELECT") {
-        e.preventDefault();
-        document.getElementById("searchInput").focus();
-      }
-    });
-
-    // Back to top button
-    const directory = document.getElementById("directory");
-    const backToTop = document.getElementById("backToTop");
-
-    directory.addEventListener("scroll", () => {
-      backToTop.classList.toggle("visible", directory.scrollTop > 200);
-    });
-
-    backToTop.addEventListener("click", () => {
-      directory.scrollTo({ top: 0, behavior: "smooth" });
-    });
-  </script>
+  <script src="/scripts/map.js" defer></script>
+  <script src="/scripts/app.js" defer></script>
+  <script src="/scripts/timeline.js" defer></script>
 
 </body>
 

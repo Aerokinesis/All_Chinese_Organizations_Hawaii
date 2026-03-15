@@ -66,7 +66,7 @@ function getSortKey(name) {
 let organizations = [];
 
 // Fetch data
-fetch("chinese_organizations_geocoded.json")
+fetch("data/chinese_organizations_geocoded.json")
   .then((response) => response.json())
   .then((data) => {
     organizations = data;
@@ -276,4 +276,25 @@ searchInput.addEventListener("input", () => {
 
   applyFilters();
 
+});
+
+// Keyboard shortcut: press "/" to focus search
+document.addEventListener("keydown", (e) => {
+  const tag = document.activeElement.tagName;
+  if (e.key === "/" && tag !== "INPUT" && tag !== "TEXTAREA" && tag !== "SELECT") {
+    e.preventDefault();
+    document.getElementById("searchInput").focus();
+  }
+});
+
+// Back to top button
+const directory = document.getElementById("directory");
+const backToTop = document.getElementById("backToTop");
+
+container.addEventListener("scroll", () => {
+  backToTop.classList.toggle("visible", container.scrollTop > 200);
+});
+
+backToTop.addEventListener("click", () => {
+  directory.scrollTo({ top: 0, behavior: "smooth" });
 });
