@@ -1,16 +1,16 @@
 const fs = require("fs");
 
-const inputFile = "chinese_organizations.json";
-const outputFile = "chinese_organizations_geocoded.json";
+const inputFile = "data/chinese_organizations.json";
+const outputFile = "data/chinese_organizations_geocoded.json";
 
 const data = JSON.parse(fs.readFileSync(inputFile, "utf8"));
 
 function cleanAddress(address) {
-    return address
-        .replace(/suite\s*\d+/i, "")
-        .replace(/ste\s*\d+/i, "")
-        .replace(/#\d+/i, "")
-        .trim();
+  return address
+    .replace(/suite\s*[a-z]?\d+/gi, "")
+    .replace(/ste\s*[a-z]?\d+/gi, "")
+    .replace(/#[a-z]?\d+/gi, "")
+    .trim();
 }
 
 async function geocode(address) {

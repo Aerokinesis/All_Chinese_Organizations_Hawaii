@@ -62,6 +62,10 @@ function getSortKey(name) {
     .trim();
 }
 
+function normalizeUrl(url) {
+  if (!url) return "";
+  return /^https?:\/\//i.test(url) ? url : "https://" + url;
+}
 
 let organizations = [];
 
@@ -73,7 +77,7 @@ fetch("data/chinese_organizations_geocoded.json")
 
     renderOrganizations(data);
     addMarkers(data);
-    
+
     buildTimeline(data);
   })
   .catch((error) => console.error("Error loading data:", error));
@@ -227,7 +231,12 @@ function renderOrganizations(data) {
 
                 ${org["Email"] ? `<p><strong>Email:</strong> <a href="mailto:${org["Email"]}">${org["Email"]}</a></p>` : ""}
 
-                ${org["Website"] ? `<a href="${org["Website"]}" target="_blank">Visit Website</a>` : ""}
+                ${org["Website"] ? `
+                  <p>
+                    <strong>Website:</strong>
+                    <a href="${normalizeUrl(org["Website"])}" target="_blank">${org["Website"]}</a>
+                  </p>
+                ` : ""}
 
                 ${org["Leadership"] && org["Leadership"].length > 0 ? `
                   <div class="leadership">

@@ -9,6 +9,10 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 const markers = {};
 const markerLayer = L.layerGroup().addTo(map);
 
+function normalizeUrl(url) {
+  if (!url) return "";
+  return /^https?:\/\//i.test(url) ? url : "https://" + url;
+}
 
 // Create markers
 function addMarkers(data) {
@@ -19,10 +23,25 @@ function addMarkers(data) {
 
     if (!org.lat || !org.lng) return;
 
+    const phone = org["Phone"]
+      ? `<br>📞 <a href="tel:${org["Phone"].replace(/\D/g, "")}" style="color:#b22222;">${org["Phone"]}</a>`
+      : "";
+
+    const email = org["Email"]
+      ? `<br>✉️ <a href="mailto:${org["Email"]}" style="color:#b22222;">${org["Email"]}</a>`
+      : "";
+
+    const website = org["Website"]
+      ? `<br>🌐 <a href="${normalizeUrl(org["Website"])}" target="_blank" style="color:#b22222;">${org["Website"]}</a>`
+      : "";
+
     const marker = L.marker([org.lat, org.lng])
       .bindPopup(`
         <b>${org["English Name"]}</b><br>
         ${org["Address"]}
+        ${phone}
+        ${email}
+        ${website}
       `);
 
     markerLayer.addLayer(marker);
